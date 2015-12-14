@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>kashfol-mahjoob</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Persian Digtal Libary (Beta)</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Persian Digital Libary (PDL) texts were sourced(with permission) from the html files of the Ganjoor corpus(2015), and were cleaned, edited, and revised by the Roshan Institute Persian Digital Humanities team at the University of Maryland College Park<bibl><pubPlace>Ganjoor corpus</pubPlace><ptr target="http://ganjoor.net"/></bibl></p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+).([\w\d]+).([\w\d]+)" n="hemistich" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;]/tei:div[@n=&quot;$2&quot;]/tei:l[@n=&quot;$3&quot;]/tei:seg[@n=&quot;$4&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+).([\w\d]+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;]/tei:div[@n=&quot;$2&quot;]/tei:l[@n=&quot;$3&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+)" n="page" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;]/tei:div[@n=&quot;$2&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+)" n="chapter" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;])"/>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:perslit:hojviri.kashfol-mahjoob.pdl" type="edition" xml:lang="per">
+        <div n="kmbab01" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+          <div n="4" subtype="page" type="textpart"/>
+          <div n="5" subtype="page" type="textpart"/>
+          <div n="6" subtype="page" type="textpart"/>
+          <div n="7" subtype="page" type="textpart"/>
+          <div n="8" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">فَکُلُّ مَنْ فی فُؤادِه وَجَعٌ </seg>
+              <seg n="b">یَطْلُبُ شیئاً یُوافِقُ الوَجَعا</seg>
+            </l>
+            <l n="2">
+              <seg n="a">لحَا اللّهُ ذِی الدُّنیا مناخاً لِراکبٍ</seg>
+              <seg n="b">فکلُّ بَعیدِ الْهَمِّ فیهَا مُعَذَّبُ</seg>
+            </l>
+          </div>
+          <div n="9" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab02" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+          <div n="4" subtype="page" type="textpart"/>
+          <div n="5" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">العجزُ عَنْ درکِ الإدراکِ إدراکٌ</seg>
+              <seg n="b">والوقفُ فی طُرقِ الأخیار إشراکُ</seg>
+            </l>
+          </div>
+        </div>
+        <div n="kmbab03" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab04" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab05" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab06" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab07" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab08" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab09" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+          <div n="4" subtype="page" type="textpart"/>
+          <div n="5" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab10" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+          <div n="4" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">هذَا الّذی تَعْرِفُ البَطْحاءُ وَطْأَتَهُ</seg>
+              <seg n="b">والبیتُ یعرِفُه و الحِلُّ وَالْحَرَمُ</seg>
+            </l>
+            <l n="2">
+              <seg n="a">هذَا بنُ خیرِ عبادِ اللّه کُلِّهُمُ</seg>
+              <seg n="b">هذَا التّقیُّ النّقیُّ الطّاهِرُ الْعَلَمُ</seg>
+            </l>
+            <l n="3">
+              <seg n="a">هذَا ابنُ فاطمةِ الزّهراءِ، وَیْحَکُمُ</seg>
+              <seg n="b">وَابنُ الوصیِّ علیٍّ خیرُکم قَدَمُ</seg>
+            </l>
+            <l n="4">
+              <seg n="a">إذا رَأَتْهُ قُرَیشٌ قالَ قائلُها</seg>
+              <seg n="b">إلی مَکارمِ هذا یَنْتَهی الکَرَمُ</seg>
+            </l>
+            <l n="5">
+              <seg n="a">یُنْمَی إلی ذِرْوةِ العزِّ الَّتی قَصُرَتْ</seg>
+              <seg n="b">عَنْ نَیْلِها عَرَبُ الإسلامِ و العجمُ</seg>
+            </l>
+            <l n="6">
+              <seg n="a">مَنْ جَدُّه دانَ فضلُ الأنبیاءِ لَه</seg>
+              <seg n="b">و فضلُ اُمّتهِ دانَتْ له الأمَمُ</seg>
+            </l>
+            <l n="7">
+              <seg n="a">یَنْشقُّ نُورُ الدّجی عَن نورِ طَلْعَتِه</seg>
+              <seg n="b">کَالشَّمْسِ ینجابُ عَنْ إشْراقِهَا الظُّلَمُ</seg>
+            </l>
+            <l n="8">
+              <seg n="a">یکادُ یُمْسِکُه عِرْفانَ راحتِه</seg>
+              <seg n="b">رُکنُ الحطیم إذا ما جاءَ یَسْتَلِمُ</seg>
+            </l>
+            <l n="9">
+              <seg n="a">یُغْضی حیاءً و یُغْضی مِنْ مَهابَتهِ</seg>
+              <seg n="b">فَما یُکَلَّمُ إلَّا حینَ یَبْتَسِمُ</seg>
+            </l>
+            <l n="10">
+              <seg n="a">فی کفِّه خَیْزُروانٌ ریحُها عَبِقٌ</seg>
+              <seg n="b">مِنْ کفِّ أروعَ فی عِرْنینِهِ شَمَمُ</seg>
+            </l>
+            <l n="11">
+              <seg n="a">مُشْتَقُّةٌ مِنْ رَسُولِ اللّهِ نَبْعَتُه</seg>
+              <seg n="b">طابَتْ عناصِرُه والخِیمُ والشِّیَمُ</seg>
+            </l>
+            <l n="12">
+              <seg n="a">کِلْتا یَدَیْهِ غِیاثٌ عَمَّ نَفْعُهُما</seg>
+              <seg n="b">تُستوکَفانِ وَلایَعْرُوهُما العَدَمُ</seg>
+            </l>
+            <l n="13">
+              <seg n="a">عمّ البریّةَ بِالاحسانِ فَانْقَشَعَتْ</seg>
+              <seg n="b">عنهُ الغیابةُ والإملاقُ والظُّلَمُ</seg>
+            </l>
+            <l n="14">
+              <seg n="a">لایَسْتَطیعُ جوادٌ بُعْدَ غایَتِهم</seg>
+              <seg n="b">ولایُدانِیهِم قومٌ وَ إنْ کَرُموا</seg>
+            </l>
+            <l n="15">
+              <seg n="a">هُمُ الغُیوثُ إذا ما أزمةٌ أَزَمَتْ</seg>
+              <seg n="b">وَالأُسْدُ أسْدُ الشَّری و البأس یحتدمُ</seg>
+            </l>
+            <l n="16">
+              <seg n="a">مِنْ مَعْشَرٍ حبُّهُم دینٌ وَبُغْضُهُمُ</seg>
+              <seg n="b">کُفْرٌ وَ قُرْبُهم مَنْجیً و مُعْتَصَمُ</seg>
+            </l>
+            <l n="17">
+              <seg n="a">ان عُدَّ اهلُ التُّقی کانُوا ائمّتَهم</seg>
+              <seg n="b">اوقیلَ مَنْ خیرُ أهلِ الأرضِ قیلَ هُمُ»</seg>
+            </l>
+          </div>
+          <div n="5" subtype="page" type="textpart"/>
+          <div n="6" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab11" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">فَلا تَحْقِرَنْ نَفْسی و أَنْتَ حَبیبُها</seg>
+              <seg n="b">فکُلُّ امرءٍ یَصْبُوا إلی مَنْ یُجانِسُ</seg>
+            </l>
+          </div>
+          <div n="4" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab12" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+          <div n="4" subtype="page" type="textpart"/>
+          <div n="5" subtype="page" type="textpart"/>
+          <div n="6" subtype="page" type="textpart"/>
+          <div n="7" subtype="page" type="textpart"/>
+          <div n="8" subtype="page" type="textpart"/>
+          <div n="9" subtype="page" type="textpart"/>
+          <div n="10" subtype="page" type="textpart"/>
+          <div n="11" subtype="page" type="textpart"/>
+          <div n="12" subtype="page" type="textpart"/>
+          <div n="13" subtype="page" type="textpart"/>
+          <div n="14" subtype="page" type="textpart"/>
+          <div n="15" subtype="page" type="textpart"/>
+          <div n="16" subtype="page" type="textpart"/>
+          <div n="17" subtype="page" type="textpart"/>
+          <div n="18" subtype="page" type="textpart"/>
+          <div n="19" subtype="page" type="textpart"/>
+          <div n="20" subtype="page" type="textpart"/>
+          <div n="21" subtype="page" type="textpart"/>
+          <div n="22" subtype="page" type="textpart"/>
+          <div n="23" subtype="page" type="textpart"/>
+          <div n="24" subtype="page" type="textpart"/>
+          <div n="25" subtype="page" type="textpart"/>
+          <div n="26" subtype="page" type="textpart"/>
+          <div n="27" subtype="page" type="textpart"/>
+          <div n="28" subtype="page" type="textpart"/>
+          <div n="29" subtype="page" type="textpart"/>
+          <div n="30" subtype="page" type="textpart"/>
+          <div n="31" subtype="page" type="textpart"/>
+          <div n="32" subtype="page" type="textpart"/>
+          <div n="33" subtype="page" type="textpart"/>
+          <div n="34" subtype="page" type="textpart"/>
+          <div n="35" subtype="page" type="textpart"/>
+          <div n="36" subtype="page" type="textpart"/>
+          <div n="37" subtype="page" type="textpart"/>
+          <div n="38" subtype="page" type="textpart"/>
+          <div n="39" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">مالی مَرَضْتُ فَلَمْ یَعُدْنی عائدٌ</seg>
+              <seg n="b">مِنْکُمْ ویَمْرَضٌ عَبْدُکم فأعودُ</seg>
+            </l>
+            <l n="2">
+              <seg n="a">وَأَشَدُّ مِنْ مَرَضی عَلَیَّ صُدُودُکم</seg>
+              <seg n="b">و صُدودُ عَبْدِکُمُ عَلیَّ شَدیدُ</seg>
+            </l>
+          </div>
+          <div n="40" subtype="page" type="textpart"/>
+          <div n="41" subtype="page" type="textpart"/>
+          <div n="42" subtype="page" type="textpart"/>
+          <div n="43" subtype="page" type="textpart"/>
+          <div n="44" subtype="page" type="textpart"/>
+          <div n="45" subtype="page" type="textpart"/>
+          <div n="46" subtype="page" type="textpart"/>
+          <div n="47" subtype="page" type="textpart"/>
+          <div n="48" subtype="page" type="textpart"/>
+          <div n="49" subtype="page" type="textpart"/>
+          <div n="50" subtype="page" type="textpart"/>
+          <div n="51" subtype="page" type="textpart"/>
+          <div n="52" subtype="page" type="textpart"/>
+          <div n="53" subtype="page" type="textpart"/>
+          <div n="54" subtype="page" type="textpart"/>
+          <div n="55" subtype="page" type="textpart"/>
+          <div n="56" subtype="page" type="textpart"/>
+          <div n="57" subtype="page" type="textpart"/>
+          <div n="58" subtype="page" type="textpart"/>
+          <div n="59" subtype="page" type="textpart"/>
+          <div n="60" subtype="page" type="textpart"/>
+          <div n="61" subtype="page" type="textpart"/>
+          <div n="62" subtype="page" type="textpart"/>
+          <div n="63" subtype="page" type="textpart"/>
+          <div n="64" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab13" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+          <div n="4" subtype="page" type="textpart"/>
+          <div n="5" subtype="page" type="textpart"/>
+          <div n="6" subtype="page" type="textpart"/>
+          <div n="7" subtype="page" type="textpart"/>
+          <div n="8" subtype="page" type="textpart"/>
+          <div n="9" subtype="page" type="textpart"/>
+          <div n="10" subtype="page" type="textpart"/>
+          <div n="11" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab14" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab15" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+          <div n="4" subtype="page" type="textpart"/>
+          <div n="5" subtype="page" type="textpart"/>
+          <div n="6" subtype="page" type="textpart"/>
+          <div n="7" subtype="page" type="textpart"/>
+          <div n="8" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">شَرِبتُ الرّاحَ کَأْساً بَعْدَ کأسٍ</seg>
+              <seg n="b">فما نَفِدَ الشَّرابُ وَما رَوِیتُ</seg>
+            </l>
+            <l n="2">
+              <seg n="a">إذا طَلَعَ الصَّباحُ بِنَجْمِ راحٍ</seg>
+              <seg n="b">تَساوی فیه سَکْرانُ وَصاحِ</seg>
+            </l>
+          </div>
+          <div n="9" subtype="page" type="textpart"/>
+          <div n="10" subtype="page" type="textpart"/>
+          <div n="11" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">غِبْتُ عَنّی فَما اُحِسُّ بِنَفْسی</seg>
+              <seg n="b">وَتَلاشَتْ صِفَاتِیَ الموصوفة</seg>
+            </l>
+            <l n="2">
+              <seg n="a">فأنا الیومَ غائبٌ عَنْ جَمیعٍ</seg>
+              <seg n="b">لیسَ الّا العِبارةُ الْمَلْهُوفة</seg>
+            </l>
+          </div>
+          <div n="12" subtype="page" type="textpart"/>
+          <div n="13" subtype="page" type="textpart"/>
+          <div n="14" subtype="page" type="textpart"/>
+          <div n="15" subtype="page" type="textpart"/>
+          <div n="16" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">مَنَّنْتَنی الإحْسانَ دَعْ إحْسانَک</seg>
+              <seg n="b">اُترُکْ بِخَشْوِ اللّهِ باذَنْجانَک</seg>
+            </l>
+          </div>
+          <div n="17" subtype="page" type="textpart"/>
+          <div n="18" subtype="page" type="textpart"/>
+          <div n="19" subtype="page" type="textpart"/>
+          <div n="20" subtype="page" type="textpart"/>
+          <div n="21" subtype="page" type="textpart"/>
+          <div n="22" subtype="page" type="textpart"/>
+          <div n="23" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ذَهَبٌ أیْنَما ذَهَبْنا و دُرٌّ</seg>
+              <seg n="b">حیثُ دُرْنا، وَفِضَّةٌ فی الفَضاءِ</seg>
+            </l>
+          </div>
+          <div n="24" subtype="page" type="textpart"/>
+          <div n="25" subtype="page" type="textpart"/>
+          <div n="26" subtype="page" type="textpart"/>
+          <div n="27" subtype="page" type="textpart"/>
+          <div n="28" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">فَنَیْتُ فنائی بفَقدِ هوائی</seg>
+              <seg n="b">فصارَ هَوائی فی الامورِ هَواک</seg>
+            </l>
+            <l n="2">
+              <seg n="a">وَطاحَ مقامی و الرُّسومُ کِلاهُما</seg>
+              <seg n="b">فلستُ أری فِی الوَقْتِ قُرباً و لابُعدا</seg>
+            </l>
+            <l n="3">
+              <seg n="a">فَنَیْتُ به عَنّی فَنازَلَنی بِه</seg>
+              <seg n="b">فهذا ظهورُ الْحَقِّ عند الفَنا قَصْدا</seg>
+            </l>
+          </div>
+          <div n="29" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">لاکُنْتُ إنْ کُنْتُ أدری</seg>
+              <seg n="b">کَیْفَ السَّبیلُ اِلَیْک</seg>
+            </l>
+            <l n="2">
+              <seg n="a">أفْنَیتَنی عَنْ جَمیعی</seg>
+              <seg n="b">فَصِرتُ ابکی علیک</seg>
+            </l>
+            <l n="3">
+              <seg n="a">فَفی فَنائی فَنا فنائی</seg>
+              <seg n="b">و فی فنائی وجَدتُ أنتَ</seg>
+            </l>
+            <l n="4">
+              <seg n="a">مَحَوْتَ رَسْمی و رَسْمَ جسْمی</seg>
+              <seg n="b">سألتَ عنّی فقُلتُ انتَ</seg>
+            </l>
+          </div>
+          <div n="30" subtype="page" type="textpart"/>
+          <div n="31" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ولی فُؤادٌ و أنْت مالِکُهُ</seg>
+              <seg n="b">بلا شریکٍ فَکَیْفَ یَنْقَسِمُ</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مَنْ لَمْ یَکُنْ بِکَ فانِیاً عَنْ نَفسِه</seg>
+              <seg n="b">و عَنِ الْهَوی و الأُنْسِ بِالأحبابِ</seg>
+            </l>
+            <l n="3">
+              <seg n="a">فکأنَّه بینَ المراتبِ واقِفٌ</seg>
+              <seg n="b">لِمَنالِ حَظٍّ أو لِحُسْنِ مآبِ</seg>
+            </l>
+            <l n="4">
+              <seg n="a">تقشّعَ غَیْمُ الهَجْرِ عَنْ قَمرِ الحُبِّ</seg>
+              <seg n="b">وأسْفَرَ نُورُ الصُّبْحِ عَنْ ظلمةِ العَنْبِ</seg>
+            </l>
+          </div>
+          <div n="32" subtype="page" type="textpart"/>
+          <div n="33" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">قد تَحَقَّقْتَ بسِرّی فَتَناجاکَ لِسانی</seg>
+              <seg n="b">وَاجْتَمَعْنا لمعانٍ وَافْتَرَقنا لِمعانی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">فَلَئِنْ غیّبکَ التّعظیمُ عَنْ لحظِ عیانی</seg>
+              <seg n="b">فَلقَدْ صَیَّرکَ الوجدُ من الاحشاءِ دانی</seg>
+            </l>
+          </div>
+          <div n="34" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">لبّیکَ لبّیک یا سَیِّدی و مولائی</seg>
+              <seg n="b">لبّیکَ لبّیکَ یا قَصْدی و مَعْنائی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">یا عینَ عینِ وجودی یا مُنا هِمَمی</seg>
+              <seg n="b">یا منطقی و اشاراتی و انبائی</seg>
+            </l>
+            <l n="3">
+              <seg n="a">یا کُلَّ کلّی و یا سمعی و یا بصری</seg>
+              <seg n="b">یا جُملتی و تباعیضی و أجزائی</seg>
+            </l>
+          </div>
+          <div n="35" subtype="page" type="textpart"/>
+          <div n="36" subtype="page" type="textpart"/>
+          <div n="37" subtype="page" type="textpart"/>
+          <div n="38" subtype="page" type="textpart"/>
+          <div n="39" subtype="page" type="textpart"/>
+          <div n="40" subtype="page" type="textpart"/>
+          <div n="41" subtype="page" type="textpart"/>
+          <div n="42" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ففی کلِّ شیءٍ لَهُ ایةً</seg>
+              <seg n="b">تَدُلُّ عَلی أنَّه واحدُ</seg>
+            </l>
+          </div>
+          <div n="43" subtype="page" type="textpart"/>
+          <div n="44" subtype="page" type="textpart"/>
+          <div n="45" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab16" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">إذا قُلْتُ ما أذْنَبْتُ قالَتْ مُجیبَةً</seg>
+              <seg n="b">حیاتُکَ ذَنْبٌ لایُقاسُ به ذَنْبُ</seg>
+            </l>
+          </div>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+          <div n="4" subtype="page" type="textpart"/>
+          <div n="5" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab17" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">یا منْ سَقامُ جُفونِه</seg>
+              <seg n="b">لِسَقامِ عاشِقه طبیبُ</seg>
+            </l>
+            <l n="2">
+              <seg n="a">حُزتُ المودّةَ فاستوی</seg>
+              <seg n="b">عندی حضورُک و المغیبُ</seg>
+            </l>
+            <l n="3">
+              <seg n="a">إنْ شِئتِ جودی و ان ما شئتِ فامتَنِعی</seg>
+              <seg n="b">کلاهُما منکِ منسوبٌ الی الکرمِ</seg>
+            </l>
+            <l n="4">
+              <seg n="a">إذا ما تَمنّی النّاسُ رَوْحاً و راحةً</seg>
+              <seg n="b">تمنّیتُ أنْ ألقاکِ یا عزّ خالیا</seg>
+            </l>
+            <l n="5">
+              <seg n="a">القَلْبُ یَحْسُدُ عَیْنی لَذَّةَ النَّظَرِ</seg>
+              <seg n="b">و العَیْنُ تَحْسُدُ قلبی لَذَّةَ الفِکَرِ</seg>
+            </l>
+          </div>
+          <div n="2" subtype="page" type="textpart"/>
+          <div n="3" subtype="page" type="textpart"/>
+          <div n="4" subtype="page" type="textpart"/>
+          <div n="5" subtype="page" type="textpart"/>
+          <div n="6" subtype="page" type="textpart"/>
+          <div n="7" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">فما وَجَبَتْ علیَّ زکوةُ مالٍ</seg>
+              <seg n="b">وهل تَجِبُ الزَّکوةُ علی جوادٍ</seg>
+            </l>
+          </div>
+          <div n="8" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab18" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab19" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">واصْبَحْتُ یَوْمَ النَّفْرِ و العیسُ تَرْحَلُ</seg>
+              <seg n="b">وَکانَ حُدَی الحادی بِنَا و هُوَ مُعْجِلُ</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اُسائِلُ عَنْ سلمی فَهَلْ مِنْ مُخَبِّرٍ</seg>
+              <seg n="b">بسانَّ له علماً بها أیْنَ تنزلُ</seg>
+            </l>
+            <l n="3">
+              <seg n="a">لَقَد اَفْسَدَتْ حجّی و نُسْکی و عُمرتی</seg>
+              <seg n="b">و فی البَیْنِ لی شُغْلٌ عَنِ الحجّ مُشْغِلُ</seg>
+            </l>
+            <l n="4">
+              <seg n="a">سأرْجِعُ مِنْ عامی لحَجّةِ قابلٍ</seg>
+              <seg n="b">فانّ الّذی قد کان لایُتَقبَّلُ</seg>
+            </l>
+          </div>
+        </div>
+        <div n="kmbab20" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">إنّی لأحْسُدُ ناظِریَّ عَلَیْکا</seg>
+              <seg n="b">فأغُضُّ طرفِیَ إذ نَظَرْتُ اِلیْکا</seg>
+            </l>
+            <l n="2">
+              <seg n="a">تَمنَّیْتُ مَنْ أهوی فلمّا رایتُه</seg>
+              <seg n="b">بَهِتُّ فلَمْ أمْلِکْ لساناً ولا طَرْفاً</seg>
+            </l>
+          </div>
+          <div n="2" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab21" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab22" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">اذا نَطَقَتْ جاءَتْ بکلّ مَلاحةٍ</seg>
+              <seg n="b">و ان سکتَتْ جاءَتْ بکلّ ملیحِ</seg>
+            </l>
+          </div>
+        </div>
+        <div n="kmbab23" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab24" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab25" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab26" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab27" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">وَإنّی لَأَسْتَنْعِسُ و ما بی نَعْسَةٌ</seg>
+              <seg n="b">لَعلَّ خَیالاً مِنْکِ یلقی خیالیا</seg>
+            </l>
+          </div>
+        </div>
+        <div n="kmbab28" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">لِسانُ الْحالِ أفْصَحُ مِنْ لسانی</seg>
+              <seg n="b">وصَمْتی عَنْ سؤالِکَ تَرْجُمانی</seg>
+            </l>
+          </div>
+        </div>
+        <div n="kmbab29" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab30" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">فکُلُّ امریٍ یُولِی الجمیلَ مُحبَّبٌ</seg>
+              <seg n="b">وکلُّ مکانٍ یُنْبِتُ العِزَّ طَیِّبُ</seg>
+            </l>
+          </div>
+          <div n="3" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab31" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab32" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ألاکلُّ شیءٍ ماخَلَا اللّهَ باطلٌ</seg>
+              <seg n="b">وکلُّ نعیمٍ لامَحالَةَ زائِلُ</seg>
+            </l>
+          </div>
+        </div>
+        <div n="kmbab33" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab34" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab35" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ألا فَاسْقِنی خَمْراً وقُلْ لی هِیَ الخَمْرُ</seg>
+              <seg n="b">وَلا تَسْقِنی سِرّاً إذا أمْکَنَ الْجَهْرُ</seg>
+            </l>
+          </div>
+        </div>
+        <div n="kmbab36" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">فی سبیلِ اللّهِ ودٌّ</seg>
+              <seg n="b">کانَ مِنّی لک یُبْذَل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کلُّ یومٍ تتلوَّن</seg>
+              <seg n="b">غیرُ هذا بکَ أجْمَل</seg>
+            </l>
+            <l n="3">
+              <seg n="a">مُنیً إن تکن حقّاً تکُنْ احسنَ المنی</seg>
+              <seg n="b">وَإلّا فَقَدْ عِشْنا بها زَمَناً رَغْدَا</seg>
+            </l>
+            <l n="4">
+              <seg n="a">أمُدُّ کفّی بِالخُضُوعِ</seg>
+              <seg n="b">إلَی الّذی جادَ بِالصَّنیع</seg>
+            </l>
+            <l n="5">
+              <seg n="a">صحَّ عندَ النّاسِ أنّی عاشِقٌ</seg>
+              <seg n="b">غیرَ أنْ لَمْ یَعْلَمُوا عِشْقی لِمَنْ</seg>
+            </l>
+            <l n="6">
+              <seg n="a">ما فی الْإنسانِ شیءٌ حسَنٌ</seg>
+              <seg n="b">إلّا وأحسنُ منه صوتٌ حسنُ</seg>
+            </l>
+            <l n="7">
+              <seg n="a">واللّهِ ما طَلَعَتْ شمسٌ وَما غَرَبَتْ</seg>
+              <seg n="b">إلّا و أنْتَ مُنی قلبی وَوَسْواسی</seg>
+            </l>
+            <l n="8">
+              <seg n="a">وَلا تَنَفَّسْتُ مَحْزُوناً وَلا فَرِحاً</seg>
+              <seg n="b">إلّا و ذِکْرُکَ مَقْرونٌ بأنفاسی</seg>
+            </l>
+            <l n="9">
+              <seg n="a">ولاجَلَسْتُ إلی قَوْمٍ اُحَدِّثُهم</seg>
+              <seg n="b">إلّا و أنْتَ حَدیثی بینَ جُلّاسی</seg>
+            </l>
+            <l n="10">
+              <seg n="a">ولاهمَمْتُ بِشُربِ الماء مِنْ عَطَشٍ</seg>
+              <seg n="b">إلّا رأیتُ خیالاً مِنکَ فی الْکاسِ</seg>
+            </l>
+          </div>
+          <div n="3" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab37" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab38" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+          <div n="2" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab39" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+        <div n="kmbab40" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

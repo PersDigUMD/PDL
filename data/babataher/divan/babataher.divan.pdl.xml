@@ -1,0 +1,3696 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divan</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Persian Digtal Libary (Beta)</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Persian Digital Libary (PDL) texts were sourced(with permission) from the html files of the Ganjoor corpus(2015), and were cleaned, edited, and revised by the Roshan Institute Persian Digital Humanities team at the University of Maryland College Park<bibl><pubPlace>Ganjoor corpus</pubPlace><ptr target="http://ganjoor.net"/></bibl></p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+).([\w\d]+).([\w\d]+)" n="seg" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3']/tei:seg[@n='$4'])"/>
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+).([\w\d]+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])"/>
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+)" n="poemnumber" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])"/>
+        <cRefPattern matchPattern="([\w\d]+)" n="genre" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:perslit:babataher.divan.pdl" type="edition" xml:lang="per">
+        <div n="2B" subtype="genre" type="textpart">
+          <div n="1" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ببندم شال و میپوشم قدک را</seg>
+              <seg n="b">بنازم گردش چرخ و فلک را</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بگردم آب دریاها سراسر</seg>
+              <seg n="b">بشویم هر دو دست بی نمک را</seg>
+            </l>
+          </div>
+          <div n="2" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">تن محنت کشی دیرم خدایا</seg>
+              <seg n="b">دل با غم خوشی دیرم خدایا</seg>
+            </l>
+            <l n="2">
+              <seg n="a">زشوق مسکن و داد غریبی</seg>
+              <seg n="b">به سینه آتشی دیرم خدایا</seg>
+            </l>
+          </div>
+          <div n="3" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر یار مرا دیدی به خلوت</seg>
+              <seg n="b">بگو ای بی‌وفا ای بیمروت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">گریبانم ز دستت چاک چاکو</seg>
+              <seg n="b">نخواهم دوخت تا روز قیامت</seg>
+            </l>
+          </div>
+          <div n="4" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ته که ناخوانده‌ای علم سماوات</seg>
+              <seg n="b">ته که نابرده‌ای ره در خرابات</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته که سود و زیان خود ندانی</seg>
+              <seg n="b">بیاران کی رسی هیهات هیهات</seg>
+            </l>
+          </div>
+          <div n="5" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلی دیرم خریدار محبت</seg>
+              <seg n="b">کز او گرم است بازار محبت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">لباسی دوختم بر قامت دل</seg>
+              <seg n="b">زپود محنت و تار محبت</seg>
+            </l>
+          </div>
+          <div n="6" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">محبت آتشی در جانم افروخت</seg>
+              <seg n="b">که تا دامان محشر بایدم سوخت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">عجب پیراهنی بهرم بریدی</seg>
+              <seg n="b">که خیاط اجل میبایدش دوخت</seg>
+            </l>
+          </div>
+          <div n="7" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نپرسی حال یار دلفکارت</seg>
+              <seg n="b">که هجران چون کند با روزگارت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته که روز و شوان در یاد مویی</seg>
+              <seg n="b">هزارت عاشق با مو چه کارت</seg>
+            </l>
+          </div>
+          <div n="8" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر دل دلبر و دلبر کدام است</seg>
+              <seg n="b">وگر دلبر دل و دلرا چه نام است</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دل و دلبر بهم آمیته وینم</seg>
+              <seg n="b">ندونم دل که و دلبر کدام است</seg>
+            </l>
+          </div>
+          <div n="9" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شب تاریک و سنگستان و مو مست</seg>
+              <seg n="b">قدح از دست مو افتاد و نشکست</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نگهدارنده‌اش نیکو نگهداشت</seg>
+              <seg n="b">وگرنه صد قدح نفتاده بشکست</seg>
+            </l>
+          </div>
+          <div n="10" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نفس شومم بدنیا بهر آن است</seg>
+              <seg n="b">که تن از بهر موران پرورانست</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ندونستم که شرط بندگی چیست</seg>
+              <seg n="b">هرزه بورم بمیدان جهانست</seg>
+            </l>
+          </div>
+          <div n="11" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شیرمردی بدم دلم چه دونست</seg>
+              <seg n="b">اجل قصدم کره و شیر ژیونست</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ز موشیر ژیان پرهیز می‌کرد</seg>
+              <seg n="b">تنم وا مرگ جنگیدن ندونست</seg>
+            </l>
+          </div>
+          <div n="12" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بود درد مو و درمانم از دوست</seg>
+              <seg n="b">بود وصل مو و هجرانم از دوست</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر قصابم از تن واکره پوست</seg>
+              <seg n="b">جدا هرگز نگردد جانم از دوست</seg>
+            </l>
+          </div>
+          <div n="13" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نمیدانم دلم دیوانهٔ کیست</seg>
+              <seg n="b">کجا آواره و در خانهٔ کیست</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نمیدونم دل سر گشتهٔ مو</seg>
+              <seg n="b">اسیر نرگس مستانهٔ کیست</seg>
+            </l>
+          </div>
+          <div n="14" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ته دوری از برم دل در برم نیست</seg>
+              <seg n="b">هوای دیگری اندر سرم نیست</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بجان دلبرم کز هر دو عالم</seg>
+              <seg n="b">تمنای دگر جز دلبرم نیست</seg>
+            </l>
+          </div>
+          <div n="15" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">یکی برزیگرک نالان درین دشت</seg>
+              <seg n="b">بخون دیدگان آلاله می‌کشت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همی کشت و همی گفت ای دریغا</seg>
+              <seg n="b">بباید کشت و هشت و رفت ازین دشت</seg>
+            </l>
+          </div>
+          <div n="16" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خرم کوه و خرم صحرا خرم دشت</seg>
+              <seg n="b">خرم آنانکه این آلالیان کشت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بسی هند و بسی شند و بسی یند</seg>
+              <seg n="b">همان کوه و همان صحرا همان دشت</seg>
+            </l>
+          </div>
+          <div n="17" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بهار آیو به صحرا و در و دشت</seg>
+              <seg n="b">جوانی هم بهاری بود و بگذشت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">سر قبر جوانان لاله رویه</seg>
+              <seg n="b">دمی که گلرخان آیند به گلگشت</seg>
+            </l>
+          </div>
+          <div n="18" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سیاهی دو چشمانت مرا کشت</seg>
+              <seg n="b">درازی دو زلفانت مرا کشت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">به قتلم حاجت تیر و کمان نیست</seg>
+              <seg n="b">خم ابرو و مژگانت مرا کشت</seg>
+            </l>
+          </div>
+          <div n="19" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">عزیزا کاسهٔ چشمم سرایت</seg>
+              <seg n="b">میان هردو چشمم جای پایت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">از آن ترسم که غافل پا نهی تو</seg>
+              <seg n="b">نشنید خار مژگانم بپایت</seg>
+            </l>
+          </div>
+          <div n="20" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">من آن رندم که گیرم از شهان باج</seg>
+              <seg n="b">بپوشم جوشن و بر سر نهم تاج</seg>
+            </l>
+            <l n="2">
+              <seg n="a">فرو ناید سر مردان به نامرد</seg>
+              <seg n="b">اگر دارم کشند مانند حلاج</seg>
+            </l>
+          </div>
+          <div n="21" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ته که می‌شی بمو چاره بیاموج</seg>
+              <seg n="b">که این تاریک شوانرا چون کرم روج</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کهی واجم که کی این روج آیو</seg>
+              <seg n="b">کهی واجم که هرگز وا نه‌ای روج</seg>
+            </l>
+          </div>
+          <div n="22" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر زرین کلاهی عاقبت هیچ</seg>
+              <seg n="b">اگر خود پادشاهی عاقبت هیچ</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر ملک سلیمانت ببخشند</seg>
+              <seg n="b">در آخر خاک راهی عاقبت هیچ</seg>
+            </l>
+          </div>
+          <div n="23" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زدست دیده و دل هر دو فریاد</seg>
+              <seg n="b">که هر چه دیده بیند دل کند یاد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بسازم خنجری نیشش ز فولاد</seg>
+              <seg n="b">زنم بر دیده تا دل گردد آزاد</seg>
+            </l>
+          </div>
+          <div n="24" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">گیج و ویجم که کافر گیج میراد</seg>
+              <seg n="b">چنان گیجم که کافر هم موی ناد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بر این آئین که مو را جان و دل داد</seg>
+              <seg n="b">شمع و پروانه را پرویج میداد</seg>
+            </l>
+          </div>
+          <div n="25" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دو چشمم درد چشمانت بچیناد</seg>
+              <seg n="b">مبو روجی که چشمم ته مبیناد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شنیدم رفتی و یاری گرفتی</seg>
+              <seg n="b">اگر گوشم شنید چشمم مبیناد</seg>
+            </l>
+          </div>
+          <div n="26" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم بی وصل ته شادی مبیناد</seg>
+              <seg n="b">زدرد و محنت آزادی مبیناد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خراب آباد دل بی مقدم تو</seg>
+              <seg n="b">الهی هرگز آبادی مبیناد</seg>
+            </l>
+          </div>
+          <div n="27" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بیته یارب به بستان گل مرویاد</seg>
+              <seg n="b">وگر روید کسش هرگز مبویاد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بیته هر گل به خنده لب گشاید</seg>
+              <seg n="b">رخش از خون دل هرگز مشویاد</seg>
+            </l>
+          </div>
+          <div n="28" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">یکی درد و یکی درمان پسندد</seg>
+              <seg n="b">یکی وصل و یکی هجران پسندد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">من از درمان و درد و وصل و هجران</seg>
+              <seg n="b">پسندم آنچه را جانان پسندد</seg>
+            </l>
+          </div>
+          <div n="29" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">الهی گردن گردون شود خرد</seg>
+              <seg n="b">که فرزندان آدم را همه برد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">یکی ناگه که زنده شد فلانی</seg>
+              <seg n="b">همه گویند فلان ابن فلان مرد</seg>
+            </l>
+          </div>
+          <div n="30" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نهالی کن سر از باغی برآرد</seg>
+              <seg n="b">ببارش هر کسی دستی برآرد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">برآرد باغبان از بیخ و از بن</seg>
+              <seg n="b">اگر بر جای میوه گوهر آرد</seg>
+            </l>
+          </div>
+          <div n="31" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غریبی بس مرا دلگیر دارد</seg>
+              <seg n="b">فلک بر گردنم زنجیر دارد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">فلک از گردنم زنجیر بردار</seg>
+              <seg n="b">که غربت خاک دامنگیر دارد</seg>
+            </l>
+          </div>
+          <div n="32" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خور از خورشید رویت شرم دارد</seg>
+              <seg n="b">مه نو زابرویت آزرم دارد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بشهر و کوه و صحرا هر که بینی</seg>
+              <seg n="b">زبان دل بذکرت گرم دارد</seg>
+            </l>
+          </div>
+          <div n="33" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غم عشقت بیابان پرورم کرد</seg>
+              <seg n="b">فراقت مرغ بی‌بال و پرم کرد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بمو واجی صبوری کن صبوری</seg>
+              <seg n="b">صبوری طرفه خاکی بر سرم کرد</seg>
+            </l>
+          </div>
+          <div n="34" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شوانم خواب در مرز گلان کرد</seg>
+              <seg n="b">گلم واچید و خوابم را زیان کرد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">باغبان دید که مو گل دوست دیرم</seg>
+              <seg n="b">هزاران خار بر گل پاسبان کرد</seg>
+            </l>
+          </div>
+          <div n="35" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل عاشق به پیغامی بسازد</seg>
+              <seg n="b">خمار آلوده با جامی بسازد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مرا کیفیت چشم تو کافیست</seg>
+              <seg n="b">ریاضت کش ببادامی بسازد</seg>
+            </l>
+          </div>
+          <div n="36" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دگر شو شد که مو جانم بسوزد</seg>
+              <seg n="b">گریبان تا بدامانم بسوزد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">برای کفر زلفت ای پریرخ</seg>
+              <seg n="b">همی ترسم که ایمانم بسوزد</seg>
+            </l>
+          </div>
+          <div n="37" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">هر آنکس عاشق است از جان نترسد</seg>
+              <seg n="b">یقین از بند و از زندان نترسد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دل عاشق بود گرگ گرسنه</seg>
+              <seg n="b">که گرگ از هی هی چوپان نترسد</seg>
+            </l>
+          </div>
+          <div n="38" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بلا رمزی ز بالای ته باشد</seg>
+              <seg n="b">جنون سری ز سودای ته باشد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بصورت آفرینم این گمان بی</seg>
+              <seg n="b">که پنهان در تماشای ته باشد</seg>
+            </l>
+          </div>
+          <div n="39" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">پسندی خوار و زارم تا کی و چند</seg>
+              <seg n="b">پریشان روزگارم تا کی و چند</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته که باری ز دوشم برنگیری</seg>
+              <seg n="b">گری سربار بارم تا کی و چند</seg>
+            </l>
+          </div>
+          <div n="40" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلا خوبان دل خونین پسندند</seg>
+              <seg n="b">دلا خون شو که خوبان این پسندند</seg>
+            </l>
+            <l n="2">
+              <seg n="a">متاع کفر و دین بی‌مشتری نیست</seg>
+              <seg n="b">گروهی آن گروهی این پسندند</seg>
+            </l>
+          </div>
+          <div n="41" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مرا نه سر نه سامان آفریدند</seg>
+              <seg n="b">پریشانم پریشان آفریدند</seg>
+            </l>
+            <l n="2">
+              <seg n="a">پریشان خاطران رفتند در خاک</seg>
+              <seg n="b">مرا از خاک ایشان آفریدند</seg>
+            </l>
+          </div>
+          <div n="42" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا آنانکه سودای ته دیرند</seg>
+              <seg n="b">که سر پیوسته در پای ته دیرند</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بدل دیرم تمنای کسانی</seg>
+              <seg n="b">که اندر دل تمنای ته دیرند</seg>
+            </l>
+          </div>
+          <div n="43" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">چو آن نخلم که بارش خورده باشند</seg>
+              <seg n="b">چو آن ویران که گنجش برده باشند</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چو آن پیری همی نالم درین دشت</seg>
+              <seg n="b">که رودان عزیزش مرده باشند</seg>
+            </l>
+          </div>
+          <div n="44" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا آنانکه هر از بر ندانند</seg>
+              <seg n="b">نه حرفی وانویسند و نه خوانند</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چو مجنون سر نهند اندر بیابان</seg>
+              <seg n="b">ازین گو گل روند آهو چرانند</seg>
+            </l>
+          </div>
+          <div n="45" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا آنانکه تن از جان ندانند</seg>
+              <seg n="b">تن و جانی بجز جانان ندانند</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بدردش خو گرند سالان و ماهان</seg>
+              <seg n="b">بدرد خویشتن درمان ندانند</seg>
+            </l>
+          </div>
+          <div n="46" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا آنانکه پا از سر ندونند</seg>
+              <seg n="b">مثال شعله خشک وتر ندونند</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کنشت و کعبه و بتخانه و دیر</seg>
+              <seg n="b">سرائی خالی از دلبر ندونند</seg>
+            </l>
+          </div>
+          <div n="47" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا آنانکه هر شامان ته وینند</seg>
+              <seg n="b">سخن با ته گرند با ته نشینند</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مو که پایم نبی کایم ته وینم</seg>
+              <seg n="b">بشم آنان بوینم که ته وینند</seg>
+            </l>
+          </div>
+          <div n="48" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا آنان که با ته همنشینند</seg>
+              <seg n="b">همیشه با دل خرم نشینند</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همین بی رسم عشق و عشقبازی</seg>
+              <seg n="b">که گستاخانه آیند و ته بینند</seg>
+            </l>
+          </div>
+          <div n="49" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">لاله کاران دگر لاله مکارید</seg>
+              <seg n="b">باغبانان دو دست از گل بدارید</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر عهد گلان این بو که دیدم</seg>
+              <seg n="b">بیخ گل بر کنید و خار بکارید</seg>
+            </l>
+          </div>
+          <div n="50" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو آن رندم که نامم بی‌قلندر</seg>
+              <seg n="b">نه خان دیرم نه مان دیرم نه لنگر</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چو روج آیو بگردم گرد گیتی</seg>
+              <seg n="b">چو شو آیو به خشتی وانهم سر</seg>
+            </l>
+          </div>
+          <div n="51" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">تویی آن شکرین لب یاسمین بر</seg>
+              <seg n="b">منم آن آتشین دل دیدگان تر</seg>
+            </l>
+            <l n="2">
+              <seg n="a">از آن ترسم که در آغوشم آیی</seg>
+              <seg n="b">گدازد آتشت بر آب شکر</seg>
+            </l>
+          </div>
+          <div n="52" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">گلش در زیر سنبل سایه پرور</seg>
+              <seg n="b">نهال قامتش نخلی است نوبر</seg>
+            </l>
+            <l n="2">
+              <seg n="a">زعشق آن گل رعنا همه شب</seg>
+              <seg n="b">چو بلبل ناله و افغان برآور</seg>
+            </l>
+          </div>
+          <div n="53" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دمی بوره بوین حالم ته دلبر</seg>
+              <seg n="b">دلم تنگه شبی با مو بسر بر</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته گل بر سر زنی ای نو گل مو</seg>
+              <seg n="b">به جای گل زنم مو دست بر سر</seg>
+            </l>
+          </div>
+          <div n="54" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بروی ماهت ای ماه ده و چار</seg>
+              <seg n="b">به سرو قدت ای زیبنده رخسار</seg>
+            </l>
+            <l n="2">
+              <seg n="a">که جز عشقت خیالی در دلم نی</seg>
+              <seg n="b">بدیاری ندارم مو سر و کار</seg>
+            </l>
+          </div>
+          <div n="55" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دیم آلاله‌ای در دامن خار</seg>
+              <seg n="b">واتم آلالیا کی چینمت بار</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بگفتا باغبان معذور میدار</seg>
+              <seg n="b">درخت دوستی دیر آورد بار</seg>
+            </l>
+          </div>
+          <div n="56" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم زار و دلم زار و دلم زار</seg>
+              <seg n="b">طبیبم آورید دردم کرید چار</seg>
+            </l>
+            <l n="2">
+              <seg n="a">طبیبم چون بوینه بر موی زار</seg>
+              <seg n="b">کره در مون دردم را بناچار</seg>
+            </l>
+          </div>
+          <div n="57" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سه درد آمو بجانم هر سه یکبار</seg>
+              <seg n="b">غریبی و اسیری و غم یار</seg>
+            </l>
+            <l n="2">
+              <seg n="a">غریبی و اسیری چاره دیره</seg>
+              <seg n="b">غم یار و غم یار و غم یار</seg>
+            </l>
+          </div>
+          <div n="58" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زدل نقش جمالت در نشی یار</seg>
+              <seg n="b">خیال خط و خالت در نشی یار</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مژه سازم بدور دیده پرچین</seg>
+              <seg n="b">که تا وینم خیالت در نشی یار</seg>
+            </l>
+          </div>
+          <div n="59" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">الاله کوهسارانم تویی یار</seg>
+              <seg n="b">بنوشه جو کنارانم تویی یار</seg>
+            </l>
+            <l n="2">
+              <seg n="a">الاله کوهساران هفته‌ای بی</seg>
+              <seg n="b">امید روزگارانم تویی یار</seg>
+            </l>
+          </div>
+          <div n="60" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بی تو تلواسه دیرم ای نکویار</seg>
+              <seg n="b">زهر در کاسه دیرم ای نکویار</seg>
+            </l>
+            <l n="2">
+              <seg n="a">میم خون گریه ساقی ناله مطرب</seg>
+              <seg n="b">مصاحب این سه دیرم ای نکویار</seg>
+            </l>
+          </div>
+          <div n="61" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">فلک زار و نزارم کردی آخر</seg>
+              <seg n="b">جدا از گلعذارم کردی آخر</seg>
+            </l>
+            <l n="2">
+              <seg n="a">میان تختهٔ نرد محبت</seg>
+              <seg n="b">شش و پنجی بکارم کردی آخر</seg>
+            </l>
+          </div>
+          <div n="62" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر شیری اگر میری اگر مور</seg>
+              <seg n="b">گذر باید کنی آخر لب گور</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دلا رحمی بجان خویشتن کن</seg>
+              <seg n="b">که مورانت نهند خوان و کنند سور</seg>
+            </l>
+          </div>
+          <div n="63" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر شیری اگر ببری اگر کور</seg>
+              <seg n="b">سرانجامت بود جا در ته گور</seg>
+            </l>
+            <l n="2">
+              <seg n="a">تنت در خاک باشد سفره گستر</seg>
+              <seg n="b">بگردش موش و مار و عقرب و مور</seg>
+            </l>
+          </div>
+          <div n="64" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلا اصلا نترسی از ره دور</seg>
+              <seg n="b">دلا اصلا نترسی از ته گور</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دلا اصلا نمیترسی که روزی</seg>
+              <seg n="b">شوی بنگاه مار و لانهٔ مور</seg>
+            </l>
+          </div>
+          <div n="65" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">جره بازی بدم رفتم به نخجیر</seg>
+              <seg n="b">سبک دستی بزد بر بال من تیر</seg>
+            </l>
+            <l n="2">
+              <seg n="a">برو غافل مچر در کوهساران</seg>
+              <seg n="b">هران غافل چرد غافل خورد تیر</seg>
+            </l>
+          </div>
+          <div n="66" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بوره بلبل بنالیم از سر سوز</seg>
+              <seg n="b">بوره آه سحر از مو بیاموز</seg>
+            </l>
+            <l n="2">
+              <seg n="a">تو از بهر گلی ده روز نالی</seg>
+              <seg n="b">مو از بهر دل‌آرامم شو و روز</seg>
+            </l>
+          </div>
+          <div n="67" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">جدا از رویت ای ماه دل افروز</seg>
+              <seg n="b">نه روز از شو شناسم نه شو از روز</seg>
+            </l>
+            <l n="2">
+              <seg n="a">وصالت گر مرا گردد میسر</seg>
+              <seg n="b">همه روزم شود چون عید نوروز</seg>
+            </l>
+          </div>
+          <div n="68" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو که سر در بیابانم شو و روز</seg>
+              <seg n="b">سرشک از دیده بارانم شو و روز</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نه تب دیرم نه جایم میکند درد</seg>
+              <seg n="b">همیدونم که نالونم شو و روز</seg>
+            </l>
+          </div>
+          <div n="69" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بی ته سر در بیابانم شو و روز</seg>
+              <seg n="b">سرشک از دیده بارانم شو و روز</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نه بیمارم که جایم میکری درد</seg>
+              <seg n="b">همیدانم که نالانم شو و روز</seg>
+            </l>
+          </div>
+          <div n="70" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غم و درد مو از عطار واپرس</seg>
+              <seg n="b">درازی شب از بیمار واپرس</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خلایق هر یکی صد بار پرسند</seg>
+              <seg n="b">تو که جان و دلی یکبار واپرس</seg>
+            </l>
+          </div>
+          <div n="71" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خداوندا بفریاد دلم رس</seg>
+              <seg n="b">تو یار بیکسان مو مانده بیکس</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه گویند طاهر کس نداره</seg>
+              <seg n="b">خدا یار مو چه حاجت کس</seg>
+            </l>
+          </div>
+          <div n="72" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">گلی که خود بدادم پیچ و تابش</seg>
+              <seg n="b">باشک دیدگانم دادم آبش</seg>
+            </l>
+            <l n="2">
+              <seg n="a">درین گلشن خدایا کی روا بی</seg>
+              <seg n="b">گل از مو دیگری گیرد گلابش</seg>
+            </l>
+          </div>
+          <div n="73" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">قضا رمزی زچشمان خمارش</seg>
+              <seg n="b">قدر سری ز زلف مشگبارش</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مه و مهر آیتی ز آنروی زیبا</seg>
+              <seg n="b">نکویان جهان آئینه دارش</seg>
+            </l>
+          </div>
+          <div n="74" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به قبرستان گذر کردم کم وبیش</seg>
+              <seg n="b">بدیدم قبر دولتمند و درویش</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نه درویش بیکفن در خاک رفته</seg>
+              <seg n="b">نه دولتمند برده یک کفن بیش</seg>
+            </l>
+          </div>
+          <div n="75" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شب تار است و گرگان میزنند میش</seg>
+              <seg n="b">دو زلفانت حمایل کن بوره پیش</seg>
+            </l>
+            <l n="2">
+              <seg n="a">از آن کنج لبت بوسی بموده</seg>
+              <seg n="b">بگو راه خدا دادم بدرویش</seg>
+            </l>
+          </div>
+          <div n="76" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">فلک نه همسری دارد نه هم کف</seg>
+              <seg n="b">بخون ریزی دلش اصلا نگفت اف</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همیشه شیوهٔ کارش همینه</seg>
+              <seg n="b">چراغ دودمانیرا کند پف</seg>
+            </l>
+          </div>
+          <div n="77" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلی دیرم ولی دیوانه و دنگ</seg>
+              <seg n="b">ز دستم شیشهٔ ناموس بر سنگ</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ازین دیوانگی روزی برآیم</seg>
+              <seg n="b">که در دامان دلبر برزنم چنگ</seg>
+            </l>
+          </div>
+          <div n="78" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">وای آن روجی که در قبرم نهند تنگ</seg>
+              <seg n="b">ببالینم نهند خشت و گل و سنگ</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نه پای آنکه بگریزم ز ماران</seg>
+              <seg n="b">نه دست آنکه با موران کنم جنگ</seg>
+            </l>
+          </div>
+          <div n="79" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلی دیرم چو مو دیوانه و دنگ</seg>
+              <seg n="b">زده آئینه هر نام بر سنگ</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بمو واجند که بی نام و ننگی</seg>
+              <seg n="b">هر آن یارش تویی چه نام و چه ننگ</seg>
+            </l>
+          </div>
+          <div n="80" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">حرامم بی ته بی آلاله و گل</seg>
+              <seg n="b">حرامم بی ته بی آواز بلبل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">حرامم بی اگر بی ته نشینم</seg>
+              <seg n="b">کشم در پابی گلبن ساغر مل</seg>
+            </l>
+          </div>
+          <div n="81" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو ام آن آذرین مرغی که فی‌الحال</seg>
+              <seg n="b">بسوجم عالم ار برهم زنم بال</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مصور گر کشد نقشم به گلشن</seg>
+              <seg n="b">بسوجه گلشن از تاثیر تمثال</seg>
+            </l>
+          </div>
+          <div n="82" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خدایا داد از این دل داد از این دل</seg>
+              <seg n="b">نگشتم یک زمان من شاد از این دل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چو فردا داد خواهان داد خواهند</seg>
+              <seg n="b">بر آرم من دو صد فریاد از این دل</seg>
+            </l>
+          </div>
+          <div n="83" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خدایا خسته و زارم ازین دل</seg>
+              <seg n="b">شو و روزان در آزارم ازین دل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مو از دل نالم و دل نالد از مو</seg>
+              <seg n="b">زمو بستان که بیزارم ازین دل</seg>
+            </l>
+          </div>
+          <div n="84" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بشم واشم که تا یاری گره دل</seg>
+              <seg n="b">به بختم گریه و زاری گره دل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بگردی و نجوئی یار دیگر</seg>
+              <seg n="b">که از جان و دلت یاری گره دل</seg>
+            </l>
+          </div>
+          <div n="85" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">چرا دایم بخوابی ای دل ای دل</seg>
+              <seg n="b">ز غم در اضطرابی ای دل ای دل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بوره کنجی نشین شکر خدا کن</seg>
+              <seg n="b">که شاید کام یابی ای دل ای دل</seg>
+            </l>
+          </div>
+          <div n="86" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مگر شیر و پلنگی ای دل ای دل</seg>
+              <seg n="b">بمو دایم به جنگی ای دل ای دل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر دستم فتی خونت بریجم</seg>
+              <seg n="b">بوینم تا چه رنگی ای دل ای دل</seg>
+            </l>
+          </div>
+          <div n="87" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">چرا آزرده حالی ای دل ای دل</seg>
+              <seg n="b">همه فکر و خیالی ای دل ای دل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بساجم خنجری دل را برآرم</seg>
+              <seg n="b">بوینم تا چه حالی ای دل ای دل</seg>
+            </l>
+          </div>
+          <div n="88" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مرا درد آموه و درمان چه حاصل</seg>
+              <seg n="b">مرا وصل آموه و هجران چه حاصل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بسوته بی گل و آلاله بی سر</seg>
+              <seg n="b">سر سوته کله یاران چه حاصل</seg>
+            </l>
+          </div>
+          <div n="89" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلا غافل ز سبحانی چه حاصل</seg>
+              <seg n="b">مطیع نفس و شیطانی چه حاصل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بود قدر تو افزون از ملایک</seg>
+              <seg n="b">تو قدر خود نمیدانی چه حاصل</seg>
+            </l>
+          </div>
+          <div n="90" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ز بوی زلف تو مفتونم ای گل</seg>
+              <seg n="b">ز رنگ روی تو دلخونم ای گل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">من عاشق زعشقت بیقرارم</seg>
+              <seg n="b">تو چون لیلی و من مجنونم ای گل</seg>
+            </l>
+          </div>
+          <div n="91" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلا پوشم ز عشقت جامهٔ نیل</seg>
+              <seg n="b">نهم داغ غمت چون لاله بر دیل</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دم از مهرت زنم همچون دم صبح</seg>
+              <seg n="b">وز آن دم تا دم صور سرافیل</seg>
+            </l>
+          </div>
+          <div n="92" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غمم غم بی و همراز دلم غم</seg>
+              <seg n="b">غمم همصحبت و همراز و همدم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">غمت مهله که مو تنها نشینم</seg>
+              <seg n="b">مریزا بارک الله مرحبا غم</seg>
+            </l>
+          </div>
+          <div n="93" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دو زلفانت گرم تار ربابم</seg>
+              <seg n="b">چه میخواهی ازین حال خرابم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته که با مو سر یاری نداری</seg>
+              <seg n="b">چرا هر نیمه شو آیی بخوابم</seg>
+            </l>
+          </div>
+          <div n="94" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو آن محنت کش حسرت نصیبم</seg>
+              <seg n="b">که در هر ملک و هر شهری غریبم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نه بو روزی که آیی بر سر من</seg>
+              <seg n="b">بوینی مرده از هجرحبیبم</seg>
+            </l>
+          </div>
+          <div n="95" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو آن دل داده یکتا پرستم</seg>
+              <seg n="b">که جام شرک و خود بینی شکستم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">منم طاهر که در بزم محبت</seg>
+              <seg n="b">محمد را کمینه چاکرستم</seg>
+            </l>
+          </div>
+          <div n="96" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو آن بحرم که در ظرف آمدستم</seg>
+              <seg n="b">چو نقطه بر سر حرف آمدستم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بهر الفی الف قدی بر آیو</seg>
+              <seg n="b">الف قدم که در الف آمدستم</seg>
+            </l>
+          </div>
+          <div n="97" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">من آن مسکین تذروبی پرستم</seg>
+              <seg n="b">من آن سوزنده شمع بی‌سرستم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نه کار آخرت کردم نه دنیا</seg>
+              <seg n="b">یکی خشکیده نخل بی‌برستم</seg>
+            </l>
+          </div>
+          <div n="98" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بروی دلبری گر مایلستم</seg>
+              <seg n="b">مکن منعم گرفتار دلستم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خدا را ساربان آهسته میران</seg>
+              <seg n="b">که من واماندهٔ این قافلستم</seg>
+            </l>
+          </div>
+          <div n="99" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به عشقت ای دلارا نگروستم</seg>
+              <seg n="b">نوید وصل تو تا نشنوستم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بدل تخم وفایت کشتم آخر</seg>
+              <seg n="b">بجز اندوه و خواری ندروستم</seg>
+            </l>
+          </div>
+          <div n="100" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بشو یاد تو ای مه پاره هستم</seg>
+              <seg n="b">بروز از درد و غم بیچاره هستم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">تو داری در مقام خود قراری</seg>
+              <seg n="b">مویم که در جهان آواره هستم</seg>
+            </l>
+          </div>
+          <div n="101" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر آئی بجانت وانواجم</seg>
+              <seg n="b">وگر نائی به هجرانت گداجم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته هر دردی که داری بر دلم نه</seg>
+              <seg n="b">بمیرم یا بسوجم یا بساجم</seg>
+            </l>
+          </div>
+          <div n="102" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">الهی ار بواجم ور نواجم</seg>
+              <seg n="b">ته دانی حاجتم را مو چه واجم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر بنوازیم حاجت روا بی</seg>
+              <seg n="b">وگر محروم سازی مو چه ساجم</seg>
+            </l>
+          </div>
+          <div n="103" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم دردین و نالین چه واجم</seg>
+              <seg n="b">رخم گردین و خاکین چه واجم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بگردیدم به هفتاد و دو ملت</seg>
+              <seg n="b">بصد مذهب منادین چه واجم</seg>
+            </l>
+          </div>
+          <div n="104" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نمیدانم که رازم با که واجم</seg>
+              <seg n="b">غم و سوز وگدازم با که واجم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چه واجم هر که ذونه میکره فاش</seg>
+              <seg n="b">دگر راز و نیازم با که واجم</seg>
+            </l>
+          </div>
+          <div n="105" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به آهی گنبد خضرا بسوجم</seg>
+              <seg n="b">فلک را جمله سر تا پا بسوجم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بسوجم ار نه کارم را بساجی</seg>
+              <seg n="b">چه فرمائی بساجی یا بسوجم</seg>
+            </l>
+          </div>
+          <div n="106" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نذونی ای فلک که مستمندم</seg>
+              <seg n="b">وامو پر بد مکه که دردمندم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بیک گردش که میکردی ببینی</seg>
+              <seg n="b">چو رشته مو بسامانت ببندم</seg>
+            </l>
+          </div>
+          <div n="107" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو که چون اشتران قانع به خارم</seg>
+              <seg n="b">جهازم چوب و خرواری ببارم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بدین مزد قلیل و رنج بسیار</seg>
+              <seg n="b">هنوز از روی مالک شرمسارم</seg>
+            </l>
+          </div>
+          <div n="108" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بوره ای روی تو باغ بهارم</seg>
+              <seg n="b">خیالت مونس شبهای تارم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خدا دونه که در دنیای فانی</seg>
+              <seg n="b">بغیر عشق ته کاری ندارم</seg>
+            </l>
+          </div>
+          <div n="109" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">همه شو تا سحر اختر شمارم</seg>
+              <seg n="b">که ماه رویت آیو در کنارم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شوان گوشم بدر چشمم براهت</seg>
+              <seg n="b">گذاری تا بکی در انتظارم</seg>
+            </l>
+          </div>
+          <div n="110" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شوان استارگان یک‌یک شمارم</seg>
+              <seg n="b">براهت تا سحر در انتظارم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">پس از نیمه شوان که ته نیایی</seg>
+              <seg n="b">زدیده اشک چون باران ببارم</seg>
+            </l>
+          </div>
+          <div n="111" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">از آن انگشت نمای روزگارم</seg>
+              <seg n="b">که دور افتاده از یار و دیارم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ندونم قصد جان کردن بناحق</seg>
+              <seg n="b">بجز بر سرزدن چاره ندارم</seg>
+            </l>
+          </div>
+          <div n="112" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">از آن دلخسته و سینه فگارم</seg>
+              <seg n="b">که گریان در ته سنگ مزارم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بواجندم که ته شوری نداری</seg>
+              <seg n="b">سرا پا شور دارم شر ندارم</seg>
+            </l>
+          </div>
+          <div n="113" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غم عالم همه کردی ببارم</seg>
+              <seg n="b">مگر مو لوک مست سر قطارم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مهارم کردی و دادی به ناکس</seg>
+              <seg n="b">فزودی هر زمان باری ببارم</seg>
+            </l>
+          </div>
+          <div n="114" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">کافرم گر منی آلاله کارم</seg>
+              <seg n="b">کافرم گر منی آبش بدارم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کافرم گر منی نامش برم نام</seg>
+              <seg n="b">دو صد داغ دل از آلاله دارم</seg>
+            </l>
+          </div>
+          <div n="115" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">هزاران ملک دنیا گر بدارم</seg>
+              <seg n="b">هزاران ملک عقبی گر بدارم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بوره ته دلبرم تا با ته واجم</seg>
+              <seg n="b">که بی روی تو آنرا گر بدارم</seg>
+            </l>
+          </div>
+          <div n="116" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غم عشق تو مادر زاد دیرم</seg>
+              <seg n="b">نه از آموزش استاد دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بدان شادم که از یمن غم تو</seg>
+              <seg n="b">خراب آباد دل آباد دیرم</seg>
+            </l>
+          </div>
+          <div n="117" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ز دست چرخ گردون داد دیرم</seg>
+              <seg n="b">هزاران ناله و فریاد دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نشنید دستانم با خس و خار</seg>
+              <seg n="b">چگونه خاطر خود شاد دیرم</seg>
+            </l>
+          </div>
+          <div n="118" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو از قالوا بلی تشویش دیرم</seg>
+              <seg n="b">گنه از برگ و باران بیش دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر لاتقنطوا دستم نگیرد</seg>
+              <seg n="b">مو از یاویلنا اندیش دیرم</seg>
+            </l>
+          </div>
+          <div n="119" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو از جور بتان دل ریش دیرم</seg>
+              <seg n="b">زلاله داغ بر دل بیش دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چو فردا نامه خوانان نامه خوانند</seg>
+              <seg n="b">من شرمنده سر در پیش دیرم</seg>
+            </l>
+          </div>
+          <div n="120" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ز عشقت آتشی در بوته دیرم</seg>
+              <seg n="b">در آن آتش دل و جان سوته دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">سگت ار پا نهد بر چشمم ای دوست</seg>
+              <seg n="b">بمژگان خاک راهش رو ته دیرم</seg>
+            </l>
+          </div>
+          <div n="121" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بسر شوق سر کوی ته دیرم</seg>
+              <seg n="b">بدل مهر مه روی ته دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بت من کعبهٔ من قبلهٔ من</seg>
+              <seg n="b">ته ای هر سو نظر سوی ته دیرم</seg>
+            </l>
+          </div>
+          <div n="122" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">هزاران غم بدل اندوته دیرم</seg>
+              <seg n="b">هزار آتش بجان افروته دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بیک آه سحر کز دل برآرم</seg>
+              <seg n="b">هزاران مدعی را سوته دیرم</seg>
+            </l>
+          </div>
+          <div n="123" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زعشقت آتشی در بوته دیرم</seg>
+              <seg n="b">در آن آتش دل و جان سوته دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">سگت ار پا نهد بر چشمم ایدوست</seg>
+              <seg n="b">بمژگان خاک پایش روته دیرم</seg>
+            </l>
+          </div>
+          <div n="124" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلی نازک بسان شیشه دیرم</seg>
+              <seg n="b">اگر آهی کشم اندیشه دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">سرشکم گر بود خونین عجب نیست</seg>
+              <seg n="b">مو آن نخلم که در خون ریشه دیرم</seg>
+            </l>
+          </div>
+          <div n="125" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زهجرانت هزار اندیشه دیرم</seg>
+              <seg n="b">همیشه زهر غم در شیشه دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ز نا سازی بخت و گردش چرخ</seg>
+              <seg n="b">فغان و آه و زاری پیشه دیرم</seg>
+            </l>
+          </div>
+          <div n="126" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو آن رندم که عصیان پیشه دیرم</seg>
+              <seg n="b">بدستی جام و دستی شیشه دیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر تو بیگناهی رو ملک شو</seg>
+              <seg n="b">من از حوا و آدم ریشه دیرم</seg>
+            </l>
+          </div>
+          <div n="127" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بسر غیر ته سودائی ندیرم</seg>
+              <seg n="b">بدل جز ته تمنائی ندیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خدا دونه که در بازار عشقت</seg>
+              <seg n="b">بجز جان هیچ کالائی ندیرم</seg>
+            </l>
+          </div>
+          <div n="128" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بغیر ته دگر یاری ندیرم</seg>
+              <seg n="b">به اغیاری سر و کاری ندیرم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بدکان ته آن کاسد متاعم</seg>
+              <seg n="b">که اصلا روی بازاری ندیرم</seg>
+            </l>
+          </div>
+          <div n="129" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">همه عالم پر از کرد چه سازم</seg>
+              <seg n="b">چو مو دلها پر از درد چه سازم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بکشتم سنبلی دامان الوند</seg>
+              <seg n="b">همواز طالعم زرد چه سازم</seg>
+            </l>
+          </div>
+          <div n="130" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بدل درد غمت باقی هنوزم</seg>
+              <seg n="b">کسی واقف نبو از درد و سوزم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نبو یک بلبل سوته به گلشن</seg>
+              <seg n="b">به سوز مو نبو کافر به روزم</seg>
+            </l>
+          </div>
+          <div n="131" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">فلک بر هم زدی آخر اساسم</seg>
+              <seg n="b">زدی بر خمرهٔ نیلی لباسم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر داری برات از قصد جانم</seg>
+              <seg n="b">بکن آخر ازین دنیا اساسم</seg>
+            </l>
+          </div>
+          <div n="132" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بشم واشم ازین عالم بدر شم</seg>
+              <seg n="b">بشم از چین و ما چین دورتر شم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بشم از حاجیان حج بپرسم</seg>
+              <seg n="b">که این دوری بسه یا دورتر شم</seg>
+            </l>
+          </div>
+          <div n="133" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">قدح بر گیرم و سیر گلان شم</seg>
+              <seg n="b">بطرف سبزه و آب روان شم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دو سه جامی زنم با شادکامی</seg>
+              <seg n="b">وایم مست و بسیرلالیان شم</seg>
+            </l>
+          </div>
+          <div n="134" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خدایا واکیان شم واکیان شم</seg>
+              <seg n="b">بدین بیخانمانی واکیان شم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه از در برانند سوته آیم</seg>
+              <seg n="b">ته که از در برانی واکیان شم</seg>
+            </l>
+          </div>
+          <div n="135" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ز وصلت تا بکی فرد آیم و شم</seg>
+              <seg n="b">جگر پر سوز و پر درد آیم و شم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بموگوئی که در کویم نیایی</seg>
+              <seg n="b">مو تا کی با رخ زرد آیم و شم</seg>
+            </l>
+          </div>
+          <div n="136" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سر کویت بتا چند آیم و شم</seg>
+              <seg n="b">ز وصلت بی نوا چند آیم و شم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بکویت تا ببیند دیده رویت</seg>
+              <seg n="b">نترسی از خدا چند آیم و شم</seg>
+            </l>
+          </div>
+          <div n="137" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو که مست از می انگور باشم</seg>
+              <seg n="b">چرا از نازنینم دور باشم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مو که از آتشت گرمی نوینم</seg>
+              <seg n="b">چرا از دود محنت کور باشم</seg>
+            </l>
+          </div>
+          <div n="138" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به این بی آشنایی برکیاشم</seg>
+              <seg n="b">به این بی خانمانی برکیاشم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه گر مو برونند واته آیم</seg>
+              <seg n="b">ته از در گر برونی برکیاشم</seg>
+            </l>
+          </div>
+          <div n="139" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بیا یک شو منور کن اطاقم</seg>
+              <seg n="b">مهل در محنت و درد فراقم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">به طاق جفت ابروی تو سوگند</seg>
+              <seg n="b">که همجفت غمم تا از تو طاقم</seg>
+            </l>
+          </div>
+          <div n="140" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شبی نالم شبی شبگیر نالم</seg>
+              <seg n="b">ز جور یار و چرخ پیر نالم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">گهی همچون پلنگ تیر خورده</seg>
+              <seg n="b">گهی چون شیر در زنجیر نالم</seg>
+            </l>
+          </div>
+          <div n="141" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو که آشفته حالم چون ننالم</seg>
+              <seg n="b">شکسته پر و بالم چون ننالم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه گویند فلانی چند نالی</seg>
+              <seg n="b">تو آیی در خیالم چون ننالم</seg>
+            </l>
+          </div>
+          <div n="142" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو کز سوته دلانم چون ننالم</seg>
+              <seg n="b">مو کز بی حاصلانم چون ننالم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بگل بلبل نشیند زار نالد</seg>
+              <seg n="b">مو که دور از گلانم چون ننالم</seg>
+            </l>
+          </div>
+          <div n="143" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم زار و حزینه چون ننالم</seg>
+              <seg n="b">وجودم آتشینه چون ننالم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بمو واجن که طاهر چند نالی</seg>
+              <seg n="b">چو مرگم در کمینه چون ننالم</seg>
+            </l>
+          </div>
+          <div n="144" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">وای ازین دل که نی هرگز بکامم</seg>
+              <seg n="b">وای ازین دل که آزارد مدامم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">وای ازین دل که چون مرغان وحشی</seg>
+              <seg n="b">نچیده دانه اندازد بدامم</seg>
+            </l>
+          </div>
+          <div n="145" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بیته بالین سیه مار به چشمم</seg>
+              <seg n="b">روج روشن شو تار به چشمم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بیته ای نو گل باغ امیدم</seg>
+              <seg n="b">گلستان سربسر خار به چشمم</seg>
+            </l>
+          </div>
+          <div n="146" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بیته گلشن چو زندان بچشمم</seg>
+              <seg n="b">گلستان آذرستان بچشمم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بیته آرام و عمر و زندگانی</seg>
+              <seg n="b">همه خواب پریشان بچشمم</seg>
+            </l>
+          </div>
+          <div n="147" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلا از دست تنهایی بجانم</seg>
+              <seg n="b">ز آه و نالهٔ خود در فغانم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شبان تار از درد جدایی</seg>
+              <seg n="b">کند فریاد مغز استخوانم</seg>
+            </l>
+          </div>
+          <div n="148" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">قلم بتراشم از هر استخوانم</seg>
+              <seg n="b">مرکب گیرم از خون رگانم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بگیرم کاغذی از پردهٔ دل</seg>
+              <seg n="b">نویسم بهر یار مهربانم</seg>
+            </l>
+          </div>
+          <div n="149" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو آن دلدادهٔ بی خانمانم</seg>
+              <seg n="b">مو آن محنت نصیب سخت جانم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مو آن سرگشته خارم در بیابان</seg>
+              <seg n="b">که چون بادی وزد هر سو دوانم</seg>
+            </l>
+          </div>
+          <div n="150" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به خنجر گر برآرند دیدگانم</seg>
+              <seg n="b">در آتش گر بسوزند استخوانم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر بر ناخنانم نی بکوبند</seg>
+              <seg n="b">نگیرم دل ز یار مهربانم</seg>
+            </l>
+          </div>
+          <div n="151" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو آن آزردهٔ بی خانمانم</seg>
+              <seg n="b">مو آن محنت نصیب سخت جانم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مو آن سرگشته خارم در بیابون</seg>
+              <seg n="b">که هر بادی وزد پیشش دوانم</seg>
+            </l>
+          </div>
+          <div n="152" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">فلک کی بشنود آه و فغانم</seg>
+              <seg n="b">بهر گردش زند آتش بجانم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">یک عمری بگذرانم با غم و درد</seg>
+              <seg n="b">بکام دل نگردد آسمانم</seg>
+            </l>
+          </div>
+          <div n="153" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">کنون داری نظر گو واکیانم</seg>
+              <seg n="b">ز جورت در گدازه استخوانم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بکه اندیشه‌ای بیداد پیشه</seg>
+              <seg n="b">که آهم تیر بو ناله کمانم</seg>
+            </l>
+          </div>
+          <div n="154" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">تو خود گفتی که مو ملاح مانم</seg>
+              <seg n="b">به آب دیدکان کشتی برانم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همی ترسم که کشتی غرق وابو</seg>
+              <seg n="b">درین دریای بی پایان بمانم</seg>
+            </l>
+          </div>
+          <div n="155" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو آن رندم که پا از سر ندونم</seg>
+              <seg n="b">سراپایی بجز دلبر ندونم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دلارامی کز او دل گیرد آرام</seg>
+              <seg n="b">بغیر از ساقی کوثر ندونم</seg>
+            </l>
+          </div>
+          <div n="156" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم دور است و احوالش ندونم</seg>
+              <seg n="b">کسی خواهد که پیغامش رسونم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خداوندا ز مرگم مهلتی ده</seg>
+              <seg n="b">که دیداری بدیدارش رسونم</seg>
+            </l>
+          </div>
+          <div n="157" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سر کوه بلند چندان نشینم</seg>
+              <seg n="b">که لاله سر بر آره مو بچینم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">الاله بیوفا بی بیوفا بی</seg>
+              <seg n="b">نگار بیوفا چون مو گزینم</seg>
+            </l>
+          </div>
+          <div n="158" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا روزی که دیدار ته وینم</seg>
+              <seg n="b">گل و سنبل ز رخسار ته چینم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بیا بنشین که تا وینم شو و روز</seg>
+              <seg n="b">جمالت ای نگار نازنینم</seg>
+            </l>
+          </div>
+          <div n="159" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شبی خواهم که پیغمبر ببینم</seg>
+              <seg n="b">دمی با ساقی کوثر نشینم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بگیرم در بغل قبر رضا را</seg>
+              <seg n="b">در آن گلشن گل شادی بچینم</seg>
+            </l>
+          </div>
+          <div n="160" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بوره روزی که دیدار ته وینم</seg>
+              <seg n="b">گل و سنبل به دیدار تو چینم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بوره بنشین برم سالان و ماهان</seg>
+              <seg n="b">که تا سیرت بوینم نازنینم</seg>
+            </l>
+          </div>
+          <div n="161" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">گلستان جای تو ای نازنیننم</seg>
+              <seg n="b">مو در گلخن به خاکستر نشینم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چه در گلشن چه در گلخن چه صحرا</seg>
+              <seg n="b">چو دیده واکرم جز ته نوینم</seg>
+            </l>
+          </div>
+          <div n="162" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به صحرا بنگرم صحرا ته وینم</seg>
+              <seg n="b">به دریا بنگرم دریا ته وینم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بهر جا بنگرم کوه و در و دشت</seg>
+              <seg n="b">نشان روی زیبای ته وینم</seg>
+            </l>
+          </div>
+          <div n="163" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوش آنساعت که دیدار ته وینم</seg>
+              <seg n="b">کمند عنبرین تار ته وینم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نوینه خرمی هرگز دل مو</seg>
+              <seg n="b">مگر آن دم که رخسار ته وینم</seg>
+            </l>
+          </div>
+          <div n="164" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">الهی دشمنت را خسته وینم</seg>
+              <seg n="b">به سینه اش خنجری تا دسته وینم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">سر شو آیم احوالش بپرسم</seg>
+              <seg n="b">سحر آیم مزارش بسته وینم</seg>
+            </l>
+          </div>
+          <div n="165" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر جسمم بسوزی سوته خواهم</seg>
+              <seg n="b">اگر چشمم بدوزی دوته خواهم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر باغم بری تا گل بچینم</seg>
+              <seg n="b">گلی همرنگ و همبوی ته خواهم</seg>
+            </l>
+          </div>
+          <div n="166" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بیا سوته دلان گردهم آئیم</seg>
+              <seg n="b">سخنها واکریم غم وانمائیم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ترازو آوریم غمها بسنجیم</seg>
+              <seg n="b">هر آن سوته تریم وزنین تر آئیم</seg>
+            </l>
+          </div>
+          <div n="167" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نمیدانم که سرگردان چرایم</seg>
+              <seg n="b">گهی نالان گهی گریان چرایم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه دردی بدوران یافت درمان</seg>
+              <seg n="b">ندانم مو که بیدرمان چرایم</seg>
+            </l>
+          </div>
+          <div n="168" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ز حال خویشتن مو بیخبر بیم</seg>
+              <seg n="b">ندونم در سفر یا در حضر بیم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">فغان از دست تو ای بیمروت</seg>
+              <seg n="b">همین ذونم که عمری دربدر بیم</seg>
+            </l>
+          </div>
+          <div n="169" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بوره یکدم بنالیم و بسوجیم</seg>
+              <seg n="b">از آنرویی که هر دو تیره روجیم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته بلبل حاش لله مثل مو نی</seg>
+              <seg n="b">نبو جز درد و غم یک عمر روجیم</seg>
+            </l>
+          </div>
+          <div n="170" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">عزیزا ما گرفتار دو دردیم</seg>
+              <seg n="b">یکی عشق و دگر در دهر فردیم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نصیب کس مباد این غم که ما راست</seg>
+              <seg n="b">جمالت یک نظر نادیده مردیم</seg>
+            </l>
+          </div>
+          <div n="171" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بیا تا دست ازین عالم بداریم</seg>
+              <seg n="b">بیا تا پای دل از گل برآریم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بیا تا بردباری پیشه سازیم</seg>
+              <seg n="b">بیا تا تخم نیکوئی بکاریم</seg>
+            </l>
+          </div>
+          <div n="172" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بوره کز دیده جیحونی بسازیم</seg>
+              <seg n="b">بوره لیلی و مجنونی بسازیم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">فریدون عزیزم رفتی از دست</seg>
+              <seg n="b">بوره کز نو فریدونی بسازیم</seg>
+            </l>
+          </div>
+          <div n="173" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بوره سوته دلان با ما بنالیم</seg>
+              <seg n="b">زدست یار بی پروا بنالیم</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بشیم با بلبل شیدا به گلشن</seg>
+              <seg n="b">اگر بلبل نناله ما بنالیم</seg>
+            </l>
+          </div>
+          <div n="174" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ته سر ورزان مو سودای ته ورزان</seg>
+              <seg n="b">گریبان بلرزان وا ته لرزان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کفن در کردنم صحرای محشر</seg>
+              <seg n="b">هران وینان احوال ته پرسان</seg>
+            </l>
+          </div>
+          <div n="175" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">برندم همچو یوسف گر بزندان</seg>
+              <seg n="b">ویا نالم زغم چون مستمندان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر صد باغبان خصمی نماید</seg>
+              <seg n="b">مدام آیم بگلزار تو خندان</seg>
+            </l>
+          </div>
+          <div n="176" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم از دست ته نالانه نالان</seg>
+              <seg n="b">اندرون دلم خون کشته پالان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">هزاران قول با ما بیش کردی</seg>
+              <seg n="b">همه قولان ته بالان بالان</seg>
+            </l>
+          </div>
+          <div n="177" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">گلی کشتم باین الوند دامان</seg>
+              <seg n="b">آوش از دیده دادم صبح و شامان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چو روج آیو که بویش وا من آیو</seg>
+              <seg n="b">برد بادش سر و سامان بسامان</seg>
+            </l>
+          </div>
+          <div n="178" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا آنان نه سر دارند نه سامان</seg>
+              <seg n="b">نشینن هر دو پا پیچن به دامان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شو و روزان صبوری پیش گیرن</seg>
+              <seg n="b">بیاد روی دلداران مدامان</seg>
+            </l>
+          </div>
+          <div n="179" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بوره ای دل بوره باری بشیمان</seg>
+              <seg n="b">مکه کاری کز آن گردی پشیمان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">یه دو روزی بناکامی سرآریم</seg>
+              <seg n="b">باشه روزی که گل چینیم بدامان</seg>
+            </l>
+          </div>
+          <div n="180" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بوره منت بریم ما از کریمان</seg>
+              <seg n="b">بکشیم دست از خوان لئیمان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کریمان دست در خوان کریمی</seg>
+              <seg n="b">که بر خوانش نظر دارند کریمان</seg>
+            </l>
+          </div>
+          <div n="181" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زدست مو کشیدی باز دامان</seg>
+              <seg n="b">ز کردارت نبی یک جو پشیمان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">روم آخر بدامانی زنم دست</seg>
+              <seg n="b">که تا از وی رسد کارم بسامان</seg>
+            </l>
+          </div>
+          <div n="182" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر مستان هستیم از ته ایمان</seg>
+              <seg n="b">وگر بی پا و دستیم از ته ایمان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر گبریم و ترسا ور مسلمان</seg>
+              <seg n="b">بهر ملت که هستیم از ته ایمان</seg>
+            </l>
+          </div>
+          <div n="183" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ز یاد خود بیا پروا کریمان</seg>
+              <seg n="b">ازو کو التجا وا که بریمان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کیه این تاب داره تا مو دارم</seg>
+              <seg n="b">نداره تاب این سام نریمان</seg>
+            </l>
+          </div>
+          <div n="184" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">پشیمانم پشیمانم پشیمان</seg>
+              <seg n="b">کاروانی بوینم تا بشیمان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کهن دنیا بهیچ کسی نمانده</seg>
+              <seg n="b">به هرزه کوله باری میکشیمان</seg>
+            </l>
+          </div>
+          <div n="185" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو آن اسپید بازم سینه سوهان</seg>
+              <seg n="b">چراگاه مو بی سر بشن کوهان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه تیغی به سوهان میکرن تیز</seg>
+              <seg n="b">مو آن تیغم که یزدان کرده سوهان</seg>
+            </l>
+          </div>
+          <div n="186" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم تنگ ندانم صبر کردن</seg>
+              <seg n="b">زدلتنگی بوم راضی بمردن</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ز شرم روی ته مو در حجابم</seg>
+              <seg n="b">ندانم عرض حالم واته کردن</seg>
+            </l>
+          </div>
+          <div n="187" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">الهی سوز عشقت بیشتر کن</seg>
+              <seg n="b">دل ریشم ز دردت ریشتر کن</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ازین غم گر دمی فارغ نشینم</seg>
+              <seg n="b">بجانم صد هزاران نیشتر کن</seg>
+            </l>
+          </div>
+          <div n="188" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">آنکه بی خان و بی مانه منم من</seg>
+              <seg n="b">آنکه بر گشته سامانه منم من</seg>
+            </l>
+            <l n="2">
+              <seg n="a">آنکه شادمان به انده میکره روز</seg>
+              <seg n="b">آنکه روزش چو شامانه منم و من</seg>
+            </l>
+          </div>
+          <div n="189" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر دستم رسد بر چرخ گردون</seg>
+              <seg n="b">از او پرسم که این چین است و آن چون</seg>
+            </l>
+            <l n="2">
+              <seg n="a">یکی را میدهی صد ناز و نعمت</seg>
+              <seg n="b">یکی را نان جو آلوده در خون</seg>
+            </l>
+          </div>
+          <div n="190" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلا خونی دلا خونی دلا خون</seg>
+              <seg n="b">همه خونی همه خونی همه خون</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ز بهر لیلی سیمین عذاری</seg>
+              <seg n="b">چو مجنونی چو مجنونی چو مجنون</seg>
+            </l>
+          </div>
+          <div n="191" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بعالم کس مبادا چون من آئین</seg>
+              <seg n="b">مو آئین کس مبو در دین و آئین</seg>
+            </l>
+            <l n="2">
+              <seg n="a">هر آنکو حال موش باور نمیبو</seg>
+              <seg n="b">مو آئین بی مو آئین بی مو آئین</seg>
+            </l>
+          </div>
+          <div n="192" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بیا جانا دل پردرد مو بین</seg>
+              <seg n="b">سرشک سرخ و روی زرد مو بین</seg>
+            </l>
+            <l n="2">
+              <seg n="a">غم مهجوری و درد صبوری</seg>
+              <seg n="b">همه برجان غم پرورد مو بین</seg>
+            </l>
+          </div>
+          <div n="193" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بیته یک شو دلم بی غم نمی‌بو</seg>
+              <seg n="b">که آن دلبر دمی همدم نمی‌بو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">هزاران رحمت حق باد بر غم</seg>
+              <seg n="b">زمانی از دل ما کم نمی بو</seg>
+            </l>
+          </div>
+          <div n="194" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">وای از روزی که قاضیمان خدا بو</seg>
+              <seg n="b">سر پل صراطم ماجرا بو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بنوبت بگذرند پیر و جوانان</seg>
+              <seg n="b">وای از آندم که نوبت زان ما بو</seg>
+            </l>
+          </div>
+          <div n="195" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلی دیرم که بهبودش نمی‌بو</seg>
+              <seg n="b">سخنها میکرم سودش نمی‌بو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ببادش میدهم نش میبرد باد</seg>
+              <seg n="b">در آتش می‌نهم دودش نمی‌بو</seg>
+            </l>
+          </div>
+          <div n="196" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سری دارم که سامانش نمیبو</seg>
+              <seg n="b">غمی دارم که پایانش نمیبو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر باور نداری سوی من آی</seg>
+              <seg n="b">بوین دردی که درمانش نمیبو</seg>
+            </l>
+          </div>
+          <div n="197" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلی دیرم دمی بیغم نمی‌بو</seg>
+              <seg n="b">غمی دیرم که هرگز کم نمی‌بو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خطی دیرم مو از خوبان عالم</seg>
+              <seg n="b">که یار بیوفا همدم نمی‌بو</seg>
+            </l>
+          </div>
+          <div n="198" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بوره جانا که جانانم تویی تو</seg>
+              <seg n="b">بوره یارا که سلطانم تویی تو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته دونی خود که مو جز تو ندونم</seg>
+              <seg n="b">بوره بوره که ایمانم تویی تو</seg>
+            </l>
+          </div>
+          <div n="199" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به والله که جانانم تویی تو</seg>
+              <seg n="b">بسلطان عرب جانم تویی تو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نمیدونم که چونم یا که چندم</seg>
+              <seg n="b">همی دونم که درمانم تویی تو</seg>
+            </l>
+          </div>
+          <div n="200" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شبی دیرم زهجرت تار تارو</seg>
+              <seg n="b">گرفته ظلمتش لیل و نهارو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خداوندا دلم را روشنی ده</seg>
+              <seg n="b">که تا وینم جمال هشت و چارو</seg>
+            </l>
+          </div>
+          <div n="201" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نصیب کس مبو درد دل مو</seg>
+              <seg n="b">که بسیاره غم بی‌حاصل مو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کسی بو از غم و دردم خبردار</seg>
+              <seg n="b">که دارد مشکلی چون مشکل مو</seg>
+            </l>
+          </div>
+          <div n="202" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نیا مطلق بکارم این دل مو</seg>
+              <seg n="b">بجز خونابه اش نه حاصل مو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">داره در موسم گل جوش سودا</seg>
+              <seg n="b">چه پروایی کره اینجا دل مو</seg>
+            </l>
+          </div>
+          <div n="203" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بهارم بی خزان ای گلبن مو</seg>
+              <seg n="b">چه غم کنده ببو بیخ و بن مو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">برس ای سوته دل یکدم به دردم</seg>
+              <seg n="b">ته ای امروز دل تازه کن مو</seg>
+            </l>
+          </div>
+          <div n="204" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">امان از اختر شوریدهٔ مو</seg>
+              <seg n="b">فغان از بخت برگردیدهٔ مو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">فلک از کینه ورزی کی گذاره</seg>
+              <seg n="b">رود خون از دل غمدیدهٔ مو</seg>
+            </l>
+          </div>
+          <div n="205" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نوای ناله غم اندوته دونو</seg>
+              <seg n="b">عیار قلب خالص بوته دونو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بوره سوته دلان واهم بنالیم</seg>
+              <seg n="b">که قدر سوته دل دلسوته دونو</seg>
+            </l>
+          </div>
+          <div n="206" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مکن کاری که پا بر سنگت آیو</seg>
+              <seg n="b">جهان با این فراخی تنگت آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چو فردا نامه خوانان نامه خونند</seg>
+              <seg n="b">تو وینی نامهٔ خود ننگت آیو</seg>
+            </l>
+          </div>
+          <div n="207" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بی ته اشکم ز مژگان تر آیو</seg>
+              <seg n="b">بی ته نخل امیدم نی بر آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بی ته در کنج تنهائی شب و روز</seg>
+              <seg n="b">نشینم تا که عمرم بر سر آیو</seg>
+            </l>
+          </div>
+          <div n="208" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شبی کان نازنینم در بر آیو</seg>
+              <seg n="b">گذشته عمرم از نو بر سر آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه شو دیدهٔ مو تا سحرگاه</seg>
+              <seg n="b">بره باشد که یارم از در آیو</seg>
+            </l>
+          </div>
+          <div n="209" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بدل چون یادم از بوم و بر آیو</seg>
+              <seg n="b">سر شگم بیخود از چشم تر آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">از آن ترسم من بر گشته دوران</seg>
+              <seg n="b">که عمرم در غریبی بر سر آیو</seg>
+            </l>
+          </div>
+          <div n="210" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوش آن ساعت که یار از در آیو</seg>
+              <seg n="b">شو هجران و روز غم سر آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">زدل بیرون کنم جانرا بصد شوق</seg>
+              <seg n="b">همی واجم که جایش دلبر آیو</seg>
+            </l>
+          </div>
+          <div n="211" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غم عشق تو کی بر هر سر آیو</seg>
+              <seg n="b">همائی کی به هر بوم و بر آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">زعشقت سرفرازان کامیابند</seg>
+              <seg n="b">که خور اول به کهساران بر آیو</seg>
+            </l>
+          </div>
+          <div n="212" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بی ته هر شو سرم بر بالش آیو</seg>
+              <seg n="b">چو نی از استخوانم نالش آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شب هجران بجای اشک چشمم</seg>
+              <seg n="b">ز مژگان پاره‌های آتش آیو</seg>
+            </l>
+          </div>
+          <div n="213" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نسیمی کز بن آن کاکل آیو</seg>
+              <seg n="b">مرا خوشتر ز بوی سنبل آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چو شو گیرم خیالش را در آغوش</seg>
+              <seg n="b">سحر از بسترم بوی گل آیو</seg>
+            </l>
+          </div>
+          <div n="214" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سحرگان که بلبل بر گل آیو</seg>
+              <seg n="b">بدامان اشک چشمم گل گل آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">روم در پای گل افغان کنم سر</seg>
+              <seg n="b">که هر سوته دلی در غلغل آیو</seg>
+            </l>
+          </div>
+          <div n="215" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">صدای چاوشان مردن آیو</seg>
+              <seg n="b">بگوش آوازهٔ جان کندن آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">رفیقان میروند نوبت به نوبت</seg>
+              <seg n="b">وای آن ساعت که نوبت وامن آیو</seg>
+            </l>
+          </div>
+          <div n="216" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بیته گلشن به چشمم گلخن آیو</seg>
+              <seg n="b">واته گلخن به چشمم گلشن آیو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">گلم ته گلبنم ته گلشنم ته</seg>
+              <seg n="b">که واته مرده را جان بر تن آیو</seg>
+            </l>
+          </div>
+          <div n="217" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">عزیزا مردی از نامرد نایو</seg>
+              <seg n="b">فغان و ناله از بیدرد نایو</seg>
+            </l>
+            <l n="2">
+              <seg n="a">حقیقت بشنو از پور فریدون</seg>
+              <seg n="b">که شعله از تنور سرد نایو</seg>
+            </l>
+          </div>
+          <div n="218" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">کجا بی جای ته ای بر همه شاه</seg>
+              <seg n="b">که مو آیم بدانجا از همه راه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه جا جای ته مو کور باطن</seg>
+              <seg n="b">غلط گفتم غلط استغفرالله</seg>
+            </l>
+          </div>
+          <div n="219" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غم عشقت ز گنج رایگان به</seg>
+              <seg n="b">وصال تو ز عمر جاودان به</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کفی از خاک کویت در حقیقت</seg>
+              <seg n="b">خدا دونه که از ملک جهان به</seg>
+            </l>
+          </div>
+          <div n="220" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غم و درد دل مو بی حسابه</seg>
+              <seg n="b">خدا دونه دل از هجرت کبابه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بنازم دست و بازوی ته صیاد</seg>
+              <seg n="b">بکش مرغ دلم بالله ثوابه</seg>
+            </l>
+          </div>
+          <div n="221" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو را درد دلم خو کرده واته</seg>
+              <seg n="b">ندونی درد دل ای بیوفا ته</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بوره مو سوته دل واته سپارم</seg>
+              <seg n="b">ته ذونی با دل و دل ذونه با ته</seg>
+            </l>
+          </div>
+          <div n="222" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل مو دایم اندر ماتم ته</seg>
+              <seg n="b">بدل پیوسته بی‌درد و غم ته</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چه پرسی که چرا قدت ببوخم</seg>
+              <seg n="b">خم قدم از آن پیچ و خم ته</seg>
+            </l>
+          </div>
+          <div n="223" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بدنیا مو نوینم کام بی ته</seg>
+              <seg n="b">بدس هرگز نگیرم جام بی ته</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بلرزم روز و شو چون بید مجنون</seg>
+              <seg n="b">ندارم یک نفس آرام بی ته</seg>
+            </l>
+          </div>
+          <div n="224" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دو چشمم را ته خون پالا کنی ته</seg>
+              <seg n="b">کلاه عقلم از سر وا کنی ته</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر لیلی بپرسه حال مجنون</seg>
+              <seg n="b">نظر او را سوی صحرا کنی ته</seg>
+            </l>
+          </div>
+          <div n="225" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلی دیرم چو مرغ پا شکسته</seg>
+              <seg n="b">چو کشتی بر لب دریا نشسته</seg>
+            </l>
+            <l n="2">
+              <seg n="a">تو گویی طاهرا چون تار بنواز</seg>
+              <seg n="b">صدا چون میدهد تار گسسته</seg>
+            </l>
+          </div>
+          <div n="226" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">قضا پیوسته در گوشم بواجه</seg>
+              <seg n="b">که این درد دل تو بی علاجه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر گوهر به آبی خواهون نداری</seg>
+              <seg n="b">همین این جون تو که بی رواجه</seg>
+            </l>
+          </div>
+          <div n="227" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلت ای سنگدل بر ما نسوجه</seg>
+              <seg n="b">عجب نبود اگر خارا نسوجه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بسوجم تا بسوجانم دلت را</seg>
+              <seg n="b">در آذر چوب تر تنها نسوجه</seg>
+            </l>
+          </div>
+          <div n="228" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم از دست خوبان گیج و ویجه</seg>
+              <seg n="b">مژه بر هم زنم خونابه ریجه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دل عاشق مثال چوب‌تر بی</seg>
+              <seg n="b">سری سوجه سری خونابه ریجه</seg>
+            </l>
+          </div>
+          <div n="229" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نذونم لوت و عریانم که کرده</seg>
+              <seg n="b">خودم جلاد و بیجونم که کرده</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بده خنجر که تا سینه کنم چاک</seg>
+              <seg n="b">ببینم عشق بر جونم چه کرده</seg>
+            </l>
+          </div>
+          <div n="230" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سرم چون گوی در میدان بگرده</seg>
+              <seg n="b">دلم از عهد و پیمان بر نگرده</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر دوران به نااهلان بمانه</seg>
+              <seg n="b">نشینم تا که این دوران بگرده</seg>
+            </l>
+          </div>
+          <div n="231" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شدستم پیرو برنائی نمانده</seg>
+              <seg n="b">بتن توش و توانائی نمانده</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بمو واجی برو آلالهٔ چین</seg>
+              <seg n="b">چرا چینم که بینائی نمانده</seg>
+            </l>
+          </div>
+          <div n="232" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مرا عشقت ز جان آذر برآره</seg>
+              <seg n="b">زپیکر مشت خاکستر برآره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نهال مهرت از دل گر ببرند</seg>
+              <seg n="b">هزاران شاخه دیگر برآره</seg>
+            </l>
+          </div>
+          <div n="233" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">عزیزان موسم جوش بهاره</seg>
+              <seg n="b">چمن پر سبزه صحرا لاله زاره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دمی فرصت غنیمت دان درین فصل</seg>
+              <seg n="b">که دنیای دنی بی اعتباره</seg>
+            </l>
+          </div>
+          <div n="234" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غمم بیحد و دردم بی شماره</seg>
+              <seg n="b">فغان کاین درد مو درمان نداره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خداوندا ندونه ناصح مو</seg>
+              <seg n="b">که فریاد دلم بی‌اختیاره</seg>
+            </l>
+          </div>
+          <div n="235" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل مو بیتو زار و بی قراره</seg>
+              <seg n="b">بجز آزار مو کاری نداره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">زند دستان بسر چون طفل بدخو</seg>
+              <seg n="b">بدرد هجرت اینش روزگاره</seg>
+            </l>
+          </div>
+          <div n="236" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو را ای دلبر مو با ته کاره</seg>
+              <seg n="b">وگرنه در جهان بسیار یاره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کجا پروای چون مو سوته دیری</seg>
+              <seg n="b">چو مو بلبل به گلزارت هزاره</seg>
+            </l>
+          </div>
+          <div n="237" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زغم جان در تنم در گیر و داره</seg>
+              <seg n="b">سرم در رهن تیغ آبداره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ندارم اختیاری از چه جوشش</seg>
+              <seg n="b">دل مو تاب این سودا نداره</seg>
+            </l>
+          </div>
+          <div n="238" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سرم بالین تنم بستر نداره</seg>
+              <seg n="b">دلم جز شوق ته در سر نداره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نهد دور از ته هر کس سر ببالین</seg>
+              <seg n="b">الهی سر ز بالین بر نداره</seg>
+            </l>
+          </div>
+          <div n="239" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سر سرگشته‌ام سامان نداره</seg>
+              <seg n="b">دل خون گشته‌ام درمان نداره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">به کافر مذهبی دل بسته دیرم</seg>
+              <seg n="b">که در هر مذهبی ایمان نداره</seg>
+            </l>
+          </div>
+          <div n="240" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">هر آن دلبر که چشم مست دیره</seg>
+              <seg n="b">هزاران دل چو ما پا بست دیره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">میان عاشقان آن ماه سیما</seg>
+              <seg n="b">چو شعر مو بلند و پست دیره</seg>
+            </l>
+          </div>
+          <div n="241" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم میل گل باغ ته دیره</seg>
+              <seg n="b">درون سینه‌ام داغ ته دیره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بشم آلاله زاران لاله چینم</seg>
+              <seg n="b">وینم آلاله هم داغ ته دیره</seg>
+            </l>
+          </div>
+          <div n="242" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم میل گل روی ته دیره</seg>
+              <seg n="b">سرم سودای گیسوی ته دیره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر چشمم بماه نو کره میل</seg>
+              <seg n="b">نظر بر طاق ابروی ته دیره</seg>
+            </l>
+          </div>
+          <div n="243" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سرم سودای گیسوی ته دیره</seg>
+              <seg n="b">دلم میل گل روی ته دیره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر چشمم بماه نو کره میل</seg>
+              <seg n="b">نظر بر طاق ابروی ته دیره</seg>
+            </l>
+          </div>
+          <div n="244" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غمت در سینهٔ مو خانه دیره</seg>
+              <seg n="b">چو جغدی جای در ویرانه دیره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">فلک هم در دل تنگم نهد باز</seg>
+              <seg n="b">هر آن انده که در انبانه دیره</seg>
+            </l>
+          </div>
+          <div n="245" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو که یارم سر یاری ندیره</seg>
+              <seg n="b">مو که دردم سبکباری ندیره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه واجن که یارت خواب نازه</seg>
+              <seg n="b">چه خوابست اینکه بیداری ندیره</seg>
+            </l>
+          </div>
+          <div n="246" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سحرگاهان که اشکم لاوه گیره</seg>
+              <seg n="b">زآهم هفت چرخ آلاوه گیره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چنان از دیده ریزم اشک خونین</seg>
+              <seg n="b">که گیتی سر بسر سیلابه گیره</seg>
+            </l>
+          </div>
+          <div n="247" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل مو غیرته دلبر نگیره</seg>
+              <seg n="b">بجای جوهری جوهر نگیره</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دل مو سوته و مهر ته آذر</seg>
+              <seg n="b">نبی ناسوته آذر در نگیره</seg>
+            </l>
+          </div>
+          <div n="248" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل ارمهرت نورزه بر چه ارزه</seg>
+              <seg n="b">گل است آندل که مهر تو نورزه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">گریبانی که از عشقت شود چاک</seg>
+              <seg n="b">بیک عالم گریبان وابیرزه</seg>
+            </l>
+          </div>
+          <div n="249" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">درخت غم بجانم کرده ریشه</seg>
+              <seg n="b">بدرگاه خدا نالم همیشه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">رفیقان قدر یکدیگر بدانید</seg>
+              <seg n="b">اجل سنگست و آدم مثل شیشه</seg>
+            </l>
+          </div>
+          <div n="250" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">هزاران دل بغارت برده ویشه</seg>
+              <seg n="b">هزارانت دگر خون کرده ویشه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">هزاران داغ ریش ار ویشم اشمرد</seg>
+              <seg n="b">هنو نشمرده از اشمرده ویشه</seg>
+            </l>
+          </div>
+          <div n="251" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">پریشان سنبلان پرتاب مکه</seg>
+              <seg n="b">خمارین نرگسان پرخواب مکه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">براینی ته که دل از مابرینی</seg>
+              <seg n="b">برنیه روزگار اشتاب مکه</seg>
+            </l>
+          </div>
+          <div n="252" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به والله و به بالله و به تالله</seg>
+              <seg n="b">قسم بر آیهٔ نصر من الله</seg>
+            </l>
+            <l n="2">
+              <seg n="a">که دست از دامنت من بر ندارم</seg>
+              <seg n="b">اگر کشته شوم الحکم لله</seg>
+            </l>
+          </div>
+          <div n="253" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">درین بوم و برانم پرورش نه</seg>
+              <seg n="b">شوانم جا و روزانم خورش نه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">سری دیرم که مغزی اندرو نه</seg>
+              <seg n="b">تنی دیرم که پروای سرش نه</seg>
+            </l>
+          </div>
+          <div n="254" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلی همچون دل نالان مو نه</seg>
+              <seg n="b">غمی همچون غم هجران مو نه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر دریا اگر ابر بهاران</seg>
+              <seg n="b">حریف دیدهٔ گریان مو نه</seg>
+            </l>
+          </div>
+          <div n="255" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">چو مو یک سوته دل پروانه‌ای نه</seg>
+              <seg n="b">بعالم همچو مو دیوانه‌ای نه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه مارون و مورون لانه دیرن</seg>
+              <seg n="b">من دیوانه را ویرانه‌ایی نه</seg>
+            </l>
+          </div>
+          <div n="256" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بدنیا مثل مو دل سوته‌ای نه</seg>
+              <seg n="b">بدرد سوز غم اندوته‌ای نه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چسان بندم ره سیل دو دیده</seg>
+              <seg n="b">که این زخم دلم لو سوته‌ای نه</seg>
+            </l>
+          </div>
+          <div n="257" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به کس درد دل مو واتنی نه</seg>
+              <seg n="b">که سنگ از آسمون انداتنی نه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بمو واجن که ترک یار خود که</seg>
+              <seg n="b">کسیس یارم که ترکش واتنی نه</seg>
+            </l>
+          </div>
+          <div n="258" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سحرگاهان فغان بلبلانه</seg>
+              <seg n="b">بیاد روی پر نور گلانه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ز آه مو فلک آخر خدرکه</seg>
+              <seg n="b">اثر در نالهٔ سوته دلانه</seg>
+            </l>
+          </div>
+          <div n="259" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نوای ناله غم اندوته ذونه</seg>
+              <seg n="b">عیار قلب و خالص بوته ذونه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بیا سوته دلان با هم بنالیم</seg>
+              <seg n="b">که قدر سوته دل دل سوته ذونه</seg>
+            </l>
+          </div>
+          <div n="260" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم از دست تو دایم غمینه</seg>
+              <seg n="b">ببالین خشتی و بستر زمینه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همین جرمم که مو ته دوست دیرم</seg>
+              <seg n="b">که هر کت دوست دیره حالش اینه</seg>
+            </l>
+          </div>
+          <div n="261" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">چه باغ است اینکه دارش آذرینه</seg>
+              <seg n="b">چه دشت است اینکه خونخوارش زمینه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مگر بوم و بر سنگین دلان است</seg>
+              <seg n="b">مگر صحرای عشق نازنینه</seg>
+            </l>
+          </div>
+          <div n="262" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر شاهین بچرخ هشتمینه</seg>
+              <seg n="b">کند فریاد مرگ اندر کمینه</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر صد سال در دنیا بمانی</seg>
+              <seg n="b">در آخر منزلت زیر زمینه</seg>
+            </l>
+          </div>
+          <div n="263" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دیم یک عندلیب خوشنوائی</seg>
+              <seg n="b">که می‌نالید وقت صبحگاهی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بشاخ گلبنی با گل همی گفت</seg>
+              <seg n="b">که یارا بی وفایی بی وفائی</seg>
+            </l>
+          </div>
+          <div n="264" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">فلک در قصد آزارم چرائی</seg>
+              <seg n="b">گلم گر نیستی خارم چرائی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته که باری ز دوشم بر نداری</seg>
+              <seg n="b">میان بار سربارم چرایی</seg>
+            </l>
+          </div>
+          <div n="265" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سر راهت نشینم تا بیایی</seg>
+              <seg n="b">در شادی بروی ما گشایی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شود روزی بروز مو نشینی</seg>
+              <seg n="b">که تا وینی چه سخت بیوفائی</seg>
+            </l>
+          </div>
+          <div n="266" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">تو آری روز روشن را شب از پی</seg>
+              <seg n="b">شده کون و مکان از قدرتت حی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">حقیقت بشنو از طاهر که گردید</seg>
+              <seg n="b">بیک کن خلقت هر دو جهان طی</seg>
+            </l>
+          </div>
+          <div n="267" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ته کت نازنده چشمان سرمه سائی</seg>
+              <seg n="b">ته کت زیبنده بالا دلربایی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته کت مشکین دو گیسو در قفائی</seg>
+              <seg n="b">بمو واجی که سرگردان چرائی</seg>
+            </l>
+          </div>
+          <div n="268" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">عزیزان از غم و درد جدایی</seg>
+              <seg n="b">به چشمانم نمانده روشنائی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بدرد غربت و هجرم گرفتار</seg>
+              <seg n="b">نه یار و همدمی نه آشنائی</seg>
+            </l>
+          </div>
+          <div n="269" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به هر شام و سحر گریم بکوئی</seg>
+              <seg n="b">که جاری سازم از هر دیده جوئی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مو آن بی طالعم در باغ عالم</seg>
+              <seg n="b">که گل کارم بجایش خار روئی</seg>
+            </l>
+          </div>
+          <div n="270" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ز کشت خاطرم جز غم نروئی</seg>
+              <seg n="b">ز باغم جز گل ماتم نروئی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ز صحرای دل بیحاصل مو</seg>
+              <seg n="b">گیاه ناامیدی هم نروئی</seg>
+            </l>
+          </div>
+          <div n="271" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">الهی دل بلا بی دل بلا بی</seg>
+              <seg n="b">گنه چشمان کره دل مبتلا بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر چشمان نکردی دیده بانی</seg>
+              <seg n="b">چه داند دل که خوبان در کجابی</seg>
+            </l>
+          </div>
+          <div n="272" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غم عالم نصیب جان ما بی</seg>
+              <seg n="b">بدور ما فراغت کیمیا بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">رسد آخر بدرمان درد هرکس</seg>
+              <seg n="b">دل ما بی که دردش بیدوا بی</seg>
+            </l>
+          </div>
+          <div n="273" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">وای آن روزی که قاضی مان خدا بی</seg>
+              <seg n="b">به میزان و صراطم ماجرا بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بنوبت میروند پیر و جوانان</seg>
+              <seg n="b">وای آنساعت که نوبت زان ما بی</seg>
+            </l>
+          </div>
+          <div n="274" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">صفا هونم صفا هونم چه جابی</seg>
+              <seg n="b">که هر یاری گرفتم بیوفا بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بشم یکسر بتازم تا به شیراز</seg>
+              <seg n="b">که در هر منزلی صد آشنا بی</seg>
+            </l>
+          </div>
+          <div n="275" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">عاشق آن به که دایم در بلا بی</seg>
+              <seg n="b">ایوب آسا به کرمان مبتلا بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">حسن آسا بدستش کاسهٔ زهر</seg>
+              <seg n="b">حسین آسا بدشت کربلا بی</seg>
+            </l>
+          </div>
+          <div n="276" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بدام دلبری دل مبتلا بی</seg>
+              <seg n="b">که هجرانش بلا وصلش بلا بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">درین ویرانه دل جز خون ندیدم</seg>
+              <seg n="b">نه دل گویی که دشت کربلا بی</seg>
+            </l>
+          </div>
+          <div n="277" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">جهان بی‌وفا زندان ما بی</seg>
+              <seg n="b">گل غم قسمت دامان ما بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">غم یعقوب و محنت‌های ایوب</seg>
+              <seg n="b">همه گویا نصیب جان ما بی</seg>
+            </l>
+          </div>
+          <div n="278" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بسوی باغ و بستان لاله وابی</seg>
+              <seg n="b">همه موها مثال ژاله وا بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">وگر سوی خراسان کاروان را</seg>
+              <seg n="b">رهانم مو سوی بنگاله وا بی</seg>
+            </l>
+          </div>
+          <div n="279" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زمشک‌تر سیه‌تر سنبلت بی</seg>
+              <seg n="b">هزاران دل اسیر کاکلت بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">زآه و ناله تاثیری ندیدم</seg>
+              <seg n="b">زخارا سخت‌تر گویا دلت بی</seg>
+            </l>
+          </div>
+          <div n="280" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بدریای غمت دل غوطه‌ور بی</seg>
+              <seg n="b">مرا داغ فراقت بر جگر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ز مژگان خدنگت خورده‌ام تیر</seg>
+              <seg n="b">که هر دم سوج دل زان بیشتر بی</seg>
+            </l>
+          </div>
+          <div n="281" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مدامم دل براه و دیده تر بی</seg>
+              <seg n="b">شراب عیشم از خون جگر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ببویت زندگی یابم پس از مرگ</seg>
+              <seg n="b">ترا گر بر سر خاکم گذر بی</seg>
+            </l>
+          </div>
+          <div n="282" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ز آهم هفت گردون پر شرر بی</seg>
+              <seg n="b">زمژگانم روان خون جگر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته که هرگز دلت از غم نسوجه</seg>
+              <seg n="b">کجا از سوته دیلانت خبر بی</seg>
+            </l>
+          </div>
+          <div n="283" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا آندل که از خود بیخبر بی</seg>
+              <seg n="b">ندونه در سفر یا در حضر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بکوه و دشت و صحرا همچو مجنون</seg>
+              <seg n="b">پی لیلی دوان با چشم تر بی</seg>
+            </l>
+          </div>
+          <div n="284" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شبم از روز و روز از شو بتر بی</seg>
+              <seg n="b">دل آشفته‌ام زیر و زبر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شو و روز از فراقت نالهٔ مو</seg>
+              <seg n="b">چو آه سوته جانان پر شرر بی</seg>
+            </l>
+          </div>
+          <div n="285" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">چه خوش بی‌مهربانی هر دو سر بی</seg>
+              <seg n="b">که یکسر مهربانی دردسر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر مجنون دل شوریده‌ای داشت</seg>
+              <seg n="b">دل لیلی از آن شوریده تر بی</seg>
+            </l>
+          </div>
+          <div n="286" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مدامم دل پر از خون جگر بی</seg>
+              <seg n="b">چو شمع آتش بجان و دیده تر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نشینم بر سر راهت شو و روز</seg>
+              <seg n="b">که تا روزی ترا بر مو گذر بی</seg>
+            </l>
+          </div>
+          <div n="287" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل از دست غمت زیر و زبر بی</seg>
+              <seg n="b">بچشمان اشکم از خون جگر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">هران یاری چو مو پرناز دیره</seg>
+              <seg n="b">دلش پر غصه جانش پر شرر بی</seg>
+            </l>
+          </div>
+          <div n="288" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">هر آن باغی که نخلش سر بدر بی</seg>
+              <seg n="b">مدامش باغبون خونین جگر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بباید کندنش از بیخ و از بن</seg>
+              <seg n="b">اگر بارش همه لعل و گهر بی</seg>
+            </l>
+          </div>
+          <div n="289" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شوم از شام یلدا تیره‌تر بی</seg>
+              <seg n="b">درد دلم ز بودردا بتر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه دردا رسن آخر بدرمون</seg>
+              <seg n="b">درمان درد ما خود بی اثر بی</seg>
+            </l>
+          </div>
+          <div n="290" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل تو کی ز حالم با خبر بی</seg>
+              <seg n="b">کجا رحمت باین خونین جگر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">تو که خونین جگر هرگز نبودی</seg>
+              <seg n="b">کی از خونین جگرها با خبر بی</seg>
+            </l>
+          </div>
+          <div n="291" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا آندل که از غم بهره‌ور بی</seg>
+              <seg n="b">بر آندل وای کز غم بی‌خبر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته که هرگز نسوته دیلت از غم</seg>
+              <seg n="b">کجا از سوته دیلانت خبر بی</seg>
+            </l>
+          </div>
+          <div n="292" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">هر آنکس مال و جاهش بیشتر بی</seg>
+              <seg n="b">دلش از درد دنیا ریشتر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر بر سر نهی چون خسروان تاج</seg>
+              <seg n="b">به شیرین جانت آخر نیشتر بی</seg>
+            </l>
+          </div>
+          <div n="293" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">هر آنکس با تو قربش بیشتر بی</seg>
+              <seg n="b">دلش از درد هجران ریشتر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر یکبار چشمانت بوینم</seg>
+              <seg n="b">بجانم صد هزاران نیشتر بی</seg>
+            </l>
+          </div>
+          <div n="294" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خور آئین چهره‌ات افروته‌تر بی</seg>
+              <seg n="b">بجانم تیر عشقت دوته‌تر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چرا خال رخت دونی سیاهه</seg>
+              <seg n="b">هر آن نزدیک خور بی سوته‌تر بی</seg>
+            </l>
+          </div>
+          <div n="295" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زخور این چهره‌ات افروته‌تر بی</seg>
+              <seg n="b">تیر عشقت بجانم روته‌تر بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مرا اختر بود خال سیاهت</seg>
+              <seg n="b">ز مو یارا که اختر سوته‌تر بی</seg>
+            </l>
+          </div>
+          <div n="296" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">چه خوش بی وصلت ای مه امشبک بی</seg>
+              <seg n="b">مرا وصل تو آرام دلک بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">زمهرت ای مه شیرین چالاک</seg>
+              <seg n="b">مدامم دست حسرت بر سرک بی</seg>
+            </l>
+          </div>
+          <div n="297" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلا راهت پر از خار و خسک بی</seg>
+              <seg n="b">گذرگاه تو بر اوج فلک بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شب تار و بیابان دور منزل</seg>
+              <seg n="b">خوشا آنکس که بارش کمترک بی</seg>
+            </l>
+          </div>
+          <div n="298" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شب تار و بیابان پرورک بی</seg>
+              <seg n="b">در این ره روشنایی کمترک بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">گر از دستت برآید پوست از تن</seg>
+              <seg n="b">بیفکن تا که بارت کمترک بی</seg>
+            </l>
+          </div>
+          <div n="299" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلا راه تو پر خار و خسک بی</seg>
+              <seg n="b">درین ره روشنایی کمترک بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">گر از دستت بر آید پوست از تن</seg>
+              <seg n="b">بیفکن تا که بارت کمترک بی</seg>
+            </l>
+          </div>
+          <div n="300" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زشورانگیزی چرخ و فلک بی</seg>
+              <seg n="b">که دایم چشم بختم پر نمک بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دمادم دود آهم تا سما بی</seg>
+              <seg n="b">پیاپی سیل اشکم تا سمک بی</seg>
+            </l>
+          </div>
+          <div n="301" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم بلبل صفت حیران گل بی</seg>
+              <seg n="b">درونم چون درخت پی بگل بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خونابه بار دیرم ارغوان وار</seg>
+              <seg n="b">درخت نهله بارش خون دل بی</seg>
+            </l>
+          </div>
+          <div n="302" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">قدم دایم ز بار غصه خم بی</seg>
+              <seg n="b">چو مو محنت کشی در دهر کم بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مو هرگز از غم آزادی ندیرم</seg>
+              <seg n="b">دل بی طالع مو کوه غم بی</seg>
+            </l>
+          </div>
+          <div n="303" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">قدم دایم زبار غصه خم بی</seg>
+              <seg n="b">چو مو خونین دلی در دهر کم بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">زغم یکدم مو آزادی ندیرم</seg>
+              <seg n="b">دل بیچارهٔ مو کوه غم بی</seg>
+            </l>
+          </div>
+          <div n="304" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به لامردم مکان دلبرم بی</seg>
+              <seg n="b">سخنهای خوشش تاج سرم بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر شاهم ببخشد ملک شیراز</seg>
+              <seg n="b">همان بهتر که دلبر در برم بی</seg>
+            </l>
+          </div>
+          <div n="305" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نپنداری که زندان خوشترم بی</seg>
+              <seg n="b">سرم بو گوی میدان خوشترم بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چو گلخن تار و تاریکه به چشمم</seg>
+              <seg n="b">گلستان بی ته زندان خوشترم بی</seg>
+            </l>
+          </div>
+          <div n="306" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">گر آن نامهربانم مهربان بی</seg>
+              <seg n="b">چرا از دیدگانم خون روان بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر دلبر بمو دلدار می‌بو</seg>
+              <seg n="b">چرا در تن مرا نه دل نه جان بی</seg>
+            </l>
+          </div>
+          <div n="307" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلم از سوز عشق آتش بجان بی</seg>
+              <seg n="b">بکامم زهر از آن شکر دهان بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همان دستان که با ته بی بگردن</seg>
+              <seg n="b">کنونم چون مگس بر سر زنان بی</seg>
+            </l>
+          </div>
+          <div n="308" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">جهان خوان و خلایق میهمان بی</seg>
+              <seg n="b">گل امروز مو فردا خزان بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">سیه چالی که نامش را نهند گور</seg>
+              <seg n="b">بما واجن که اینت خانمان بی</seg>
+            </l>
+          </div>
+          <div n="309" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خدایی که مکانش لامکان بی</seg>
+              <seg n="b">صفابخش جمال گلرخان بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">پدید آرندهٔ روز و شب و خلق</seg>
+              <seg n="b">که بر هر بنده او روزی رسان بی</seg>
+            </l>
+          </div>
+          <div n="310" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">هزاران لاله و گل در جهان بی</seg>
+              <seg n="b">همه زیبا به چشم دیگران بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">آلالهٔ مو به زیبایی درین باغ</seg>
+              <seg n="b">سرافراز همه آلالیان بی</seg>
+            </l>
+          </div>
+          <div n="311" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ز بیداد فلک یارون امان بی</seg>
+              <seg n="b">امان جستن روز آخرزمان بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر پاره کرم یخه بجا بو</seg>
+              <seg n="b">که وامو آسمان پرسرگران بی</seg>
+            </l>
+          </div>
+          <div n="312" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سخن از هر چه واجم واتشان بی</seg>
+              <seg n="b">حدیث از بیش و از کم واتشان بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بدریا گر روم گوهر بر آرم</seg>
+              <seg n="b">هر آن گوهر که وینم واتشان بی</seg>
+            </l>
+          </div>
+          <div n="313" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خوشا آنانکه الله یارشان بی</seg>
+              <seg n="b">بحمد و قل هو الله کارشان بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خوشا آنانکه دایم در نمازند</seg>
+              <seg n="b">بهشت جاودان بازارشان بی</seg>
+            </l>
+          </div>
+          <div n="314" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">چه واجم هر چه واجم واته‌شان بی</seg>
+              <seg n="b">سخن از بیش و از کم واته‌شان بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بدریا مو شدم گوهر برآرم</seg>
+              <seg n="b">هر آن گوهر که دیدم واته‌شان بی</seg>
+            </l>
+          </div>
+          <div n="315" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سیه بختم که بختم واژگون بی</seg>
+              <seg n="b">سیه روجم که روجم سرنگون بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شدم آوارهٔ کوی محبت</seg>
+              <seg n="b">زدست دل که یارب غرق خون بی</seg>
+            </l>
+          </div>
+          <div n="316" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">من آن شمعم که اشکم آتشین بی</seg>
+              <seg n="b">که هر سوته دلی حالش همین بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه شب گریم و نالم همه روز</seg>
+              <seg n="b">بیته شامم چنان روزم چنین بی</seg>
+            </l>
+          </div>
+          <div n="317" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زدست عشق هر شو حالم این بی</seg>
+              <seg n="b">سریرم خشت و بالینم زمین بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خوشم این بی که موته دوست دیرم</seg>
+              <seg n="b">هر آن ته دوست داره حالش این بی</seg>
+            </l>
+          </div>
+          <div n="318" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دو چشمانت پیالهٔ پر ز می بی</seg>
+              <seg n="b">خراج ابروانت ملک ری بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همی وعده کری امروز و فردا</seg>
+              <seg n="b">نمیدانم که فردای تو کی بی</seg>
+            </l>
+          </div>
+          <div n="319" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">گلان فصل بهاران هفته‌ای بی</seg>
+              <seg n="b">زمان وصل یاران هفته‌ای بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">غنیمت دان وصال لاله رویان</seg>
+              <seg n="b">که گل در لاله زاران هفته‌ای بی</seg>
+            </l>
+          </div>
+          <div n="320" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">الاله کوهساران هفته ای بی</seg>
+              <seg n="b">بنفشه جو کناران هفته‌ای بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">منادی میکره شهرو به شهرو</seg>
+              <seg n="b">وفای گلعذاران هفته‌ای بی</seg>
+            </l>
+          </div>
+          <div n="321" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بهار آیو به هر شاخی گلی بی</seg>
+              <seg n="b">بهر لاله هزاران بلبلی بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بهر مرزی نیارم پا نهادن</seg>
+              <seg n="b">مبو کز مو بتر سوز دلی بی</seg>
+            </l>
+          </div>
+          <div n="322" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">همه دل ز آتش غم سوتنی بی</seg>
+              <seg n="b">بهرجان سوز هجر افروتنی بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">که از دست اجل بر تن قبائی</seg>
+              <seg n="b">اگر شاه و گدائی دوتنی بی</seg>
+            </l>
+          </div>
+          <div n="323" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بدنیای دنی کی ماندنی بی</seg>
+              <seg n="b">که دامان بر جهان افشاندنی بی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همی لا تقنطوا خوانی عزیزا</seg>
+              <seg n="b">دلا یا ویلنا هم خواندنی بی</seg>
+            </l>
+          </div>
+          <div n="324" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">یقینم حاصله که هرزه گردی</seg>
+              <seg n="b">ازین گردش که داری برنگردی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بروی مو ببستی هر رهی را</seg>
+              <seg n="b">بدین عادت که داری کی ته مردی</seg>
+            </l>
+          </div>
+          <div n="325" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو را نه فکر سودایی نه سودی</seg>
+              <seg n="b">نه در دل فکر بهبودی نه بودی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نخواهم جو کنار و چشمه سارون</seg>
+              <seg n="b">که هر چشمم هزارون زنده رودی</seg>
+            </l>
+          </div>
+          <div n="326" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر دردم یکی بودی چه بودی</seg>
+              <seg n="b">وگر غم اندکی بودی چه بودی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">به بالینم طبیبی یا حبیبی</seg>
+              <seg n="b">ازین هر دو یکی بودی چه بودی</seg>
+            </l>
+          </div>
+          <div n="327" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">از آن روزیکه ما را آفریدی</seg>
+              <seg n="b">بغیر از معصیت چیزی ندیدی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">خداوندا بحق هشت و چارت</seg>
+              <seg n="b">ز ما بگذر شتر دیدی ندیدی</seg>
+            </l>
+          </div>
+          <div n="328" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بمو واجی چرا ته بیقراری</seg>
+              <seg n="b">چو گل پروردهٔ باد بهاری</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چرا گردی بکوه و دشت و صحرا</seg>
+              <seg n="b">بجان او ندارم اختیاری</seg>
+            </l>
+          </div>
+          <div n="329" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">همه روزم فغان و بیقراری</seg>
+              <seg n="b">شوان بیداری و فریاد و زاری</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بمو سوجه دل هر دور و نزدیک</seg>
+              <seg n="b">ته از سنگین دلی پروا نداری</seg>
+            </l>
+          </div>
+          <div n="330" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">خدایا دل ز مو بستان بزاری</seg>
+              <seg n="b">نمی‌آید ز مو بیمار داری</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نمیدونم لب لعلش به خونم</seg>
+              <seg n="b">چرا تشنه است با این آبداری</seg>
+            </l>
+          </div>
+          <div n="331" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مرا دیوانه و شیدا ته دیری</seg>
+              <seg n="b">مرا سرگشته و رسوا ته دیری</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نمیدونم دلم دارد کجا جای</seg>
+              <seg n="b">همیدونم که دردی جا ته دیری</seg>
+            </l>
+          </div>
+          <div n="332" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نگارینا دل و جانم ته دیری</seg>
+              <seg n="b">همه پیدا و پنهانم ته دیری</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نمیدانم که این درد از که دیرم</seg>
+              <seg n="b">همیدانم که درمانم ته دیری</seg>
+            </l>
+          </div>
+          <div n="333" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مسلسل زلف بر رخ ریته دیری</seg>
+              <seg n="b">گل و سنبل بهم آمیته دیری</seg>
+            </l>
+            <l n="2">
+              <seg n="a">پریشان چون کری زلف دو تا را</seg>
+              <seg n="b">بهر تاری دلی آویته دیری</seg>
+            </l>
+          </div>
+          <div n="334" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">برویت از حیا خوی ریته دیری</seg>
+              <seg n="b">دو ابرویت بناز آمیته دیری</seg>
+            </l>
+            <l n="2">
+              <seg n="a">به سحر دیده در چاه زنخدان</seg>
+              <seg n="b">بسی هاروت دل آویته دیری</seg>
+            </l>
+          </div>
+          <div n="335" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">سمن زلفا بری چون لاله دیری</seg>
+              <seg n="b">ز نرگس ناز در دنباله دیری</seg>
+            </l>
+            <l n="2">
+              <seg n="a">از آن رو سه بمهرم بر نیاری</seg>
+              <seg n="b">که در سرناز چندین ساله دیری</seg>
+            </l>
+          </div>
+          <div n="336" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">غم اندر سینهٔ مو خانه دیری</seg>
+              <seg n="b">چو ویرانه که بوم آشانه دیری</seg>
+            </l>
+            <l n="2">
+              <seg n="a">فلک اندر دل مسکین مو نه</seg>
+              <seg n="b">ازین غم هرچه در انبانه دیری</seg>
+            </l>
+          </div>
+          <div n="337" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">کشیمان ار بزاری از که ترسی</seg>
+              <seg n="b">برانی گر بخواری از که ترسی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مو با این نیمه دل از کس نترسم</seg>
+              <seg n="b">دو عالم دل ته داری از که ترسی</seg>
+            </l>
+          </div>
+          <div n="338" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">کشم آهی که گردون پر شرر شی</seg>
+              <seg n="b">دل دیوانه‌ام دیوانه‌تر شی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بترس از برق آه سوته دیلان</seg>
+              <seg n="b">که آه سوته دیلان کارگر شی</seg>
+            </l>
+          </div>
+          <div n="339" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل دیوانه‌ام دیوانه‌تر شی</seg>
+              <seg n="b">خرابه خانه‌ام ویرانه‌تر شی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کشم آهی که گردون را بسوجم</seg>
+              <seg n="b">که آه سوته دیلان کارگر شی</seg>
+            </l>
+          </div>
+          <div n="340" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">الهی ای فلک چون مو زبون شی</seg>
+              <seg n="b">دلت همچون دل مو غرق خون شی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر یک لحظه ام بی غم بوینی</seg>
+              <seg n="b">یقین دانم کزین غم سرنگون شی</seg>
+            </l>
+          </div>
+          <div n="341" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل بی عشق را افسردن اولی</seg>
+              <seg n="b">هر که دردی نداره مردن اولی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">تنی که نیست ثابت در ره عشق</seg>
+              <seg n="b">ذره ذره به آتش سوتن اولی</seg>
+            </l>
+          </div>
+          <div n="342" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">در اشکم بدامان ریته اولی</seg>
+              <seg n="b">خون دلم ز چشمان ریته اولی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بکس حرفی ز جورت وانواجم</seg>
+              <seg n="b">که حرف جور پنهان ریته اولی</seg>
+            </l>
+          </div>
+          <div n="343" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل ار عشقت نداره مرده اولی</seg>
+              <seg n="b">روان بی درد عشق افسرده اولی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">سحر بلبل زند در گلشن آواز</seg>
+              <seg n="b">که گل بی عشق حق پژمرده اولی</seg>
+            </l>
+          </div>
+          <div n="344" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">اگر دل دلبری دلبر کدامی</seg>
+              <seg n="b">وگر دلبر دلی دل را چه نامی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دل و دلبر بهم آمیته وینم</seg>
+              <seg n="b">ندانم دل که و دلبر کدامی</seg>
+            </l>
+          </div>
+          <div n="345" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">کسیکه ره بفریادم برد نی</seg>
+              <seg n="b">خبر بر سرو آزادم برد نی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">همه خوبان عالم جمع گردند</seg>
+              <seg n="b">کسیکه یادت از یادم برد نی</seg>
+            </l>
+          </div>
+          <div n="346" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">شبی ناید ز اشکم دیده تر نی</seg>
+              <seg n="b">سرشکم جاری از خون جگر نی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شو و روجم رود با نالهٔ زار</seg>
+              <seg n="b">ته را از حال زار مو خبر نی</seg>
+            </l>
+          </div>
+          <div n="347" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دل شاد از دل زارش خبر نی</seg>
+              <seg n="b">تن سالم زبیمارش خبر نی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نه تقصیره که این رسم قدیمه</seg>
+              <seg n="b">که آزاد از گرفتارش خبر نی</seg>
+            </l>
+          </div>
+          <div n="348" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ته که دور از منی دل در برم نی</seg>
+              <seg n="b">هوایی غیر وصلت در سرم نی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بجانت دلبرا کز هر دو عالم</seg>
+              <seg n="b">تمنای دگر جز دلبرم نی</seg>
+            </l>
+          </div>
+          <div n="349" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">دلی چون مو بغم اندوته ای نی</seg>
+              <seg n="b">زری چون جان مو در بوته‌ای نی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بجز شمعم ببالین همدمی نه</seg>
+              <seg n="b">که یار سوته دل جز سوته‌ای نی</seg>
+            </l>
+          </div>
+          <div n="350" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">زدل مهر تو ای مه رفتنی نی</seg>
+              <seg n="b">غم عشقت بهر کس گفتنی نی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ولیکن شعله مهر و محبت</seg>
+              <seg n="b">میان مردمان بنهفتنی نی</seg>
+            </l>
+          </div>
+          <div n="351" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو آن باز سفیدم همدانی</seg>
+              <seg n="b">لانه در کوه دارم سایبانی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">به بال خود پرم کوهان به کوهان</seg>
+              <seg n="b">به چنگ خود کرم نخجیر بانی</seg>
+            </l>
+          </div>
+          <div n="352" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">گرم خوانی ورم رانی ته دانی</seg>
+              <seg n="b">گرم درتش بسوزانی ته دانی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ورم بر سر زنی الوند و میمند</seg>
+              <seg n="b">همی واجم خدا جانی ته دانی</seg>
+            </l>
+          </div>
+          <div n="353" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">هر آن کالوند دامان مو نشانی</seg>
+              <seg n="b">دامان از هر دو عالم در کشانی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اشک خونین پاشم از راه الوند</seg>
+              <seg n="b">تا که دلبر بپایش برفشانی</seg>
+            </l>
+          </div>
+          <div n="354" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بیته یکدم دلم خرم نمانی</seg>
+              <seg n="b">اگر رویت بوینم غم نمانی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر درد دلم قسمت نمایند</seg>
+              <seg n="b">دلی بی غم درین عالم نمانی</seg>
+            </l>
+          </div>
+          <div n="355" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">من دل سوته را لایق ندونی</seg>
+              <seg n="b">که در دیوان عشاقت بخونی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">هزارون بارم از خونی ببو کم</seg>
+              <seg n="b">ز تو زیرا که بحر بیکرونی</seg>
+            </l>
+          </div>
+          <div n="356" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بمیرم تا ته چشم‌تر نبینی</seg>
+              <seg n="b">شرار آه پر آذر نبینی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چنانم آتش عشقت بسوجه</seg>
+              <seg n="b">که از مو مشت خاکستر نبینی</seg>
+            </l>
+          </div>
+          <div n="357" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به قبرستان گذر کردم صباحی</seg>
+              <seg n="b">شنیدم ناله و افغان و آهی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شنیدم کله‌ای با خاک می‌گفت</seg>
+              <seg n="b">که این دنیا نمی‌ارزد بکاهی</seg>
+            </l>
+          </div>
+          <div n="358" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">بنادانی گرفتم کوره راهی</seg>
+              <seg n="b">ندانستم که می‌افتم بچاهی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">بدل گفتم رفیقی تا به منزل</seg>
+              <seg n="b">ندانستم رفیق نیمه راهی</seg>
+            </l>
+          </div>
+          <div n="359" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ته که خورشید اوج دلربایی</seg>
+              <seg n="b">چنین بیرحم و سنگین دل چرایی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">به اول آنهمه مهر و محبت</seg>
+              <seg n="b">به آخر راه و رسم بی وفایی</seg>
+            </l>
+          </div>
+          <div n="360" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">نگار تازه خیز ما کجایی</seg>
+              <seg n="b">بچشمان سرمه ریز ما کجایی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نفس بر سینهٔ طاهر رسیده</seg>
+              <seg n="b">دم رفتن عزیز ما کجایی</seg>
+            </l>
+          </div>
+          <div n="361" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ته که نوشم نه‌ای نیشم چرایی</seg>
+              <seg n="b">ته که یارم نه‌ای پیشم چرایی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته که مرهم نه‌ای بر داغ ریشم</seg>
+              <seg n="b">نمک پاش دل ریشم چرایی</seg>
+            </l>
+          </div>
+          <div n="362" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">ز دل بیرون نبجتم ناله نایی</seg>
+              <seg n="b">ز مژگان تر مو ژاله نایی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شوی نایه که مو خوابت بوینم</seg>
+              <seg n="b">به بخت مو به چشم لاله نایی</seg>
+            </l>
+          </div>
+          <div n="363" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">عزیزون از غم و درد جدایی</seg>
+              <seg n="b">به چشمونم نمانده روشنایی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">گرفتارم بدام غربت و درد</seg>
+              <seg n="b">نه یار و همدمی نه آشنائیی</seg>
+            </l>
+          </div>
+          <div n="364" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">پی مرگ نکویان گل نرویی</seg>
+              <seg n="b">دگر رویی نه رنگش بی نه بویی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ز خود رو هیچ حاصل برنخیزد</seg>
+              <seg n="b">بجز بدنامی و بی‌آبرویی</seg>
+            </l>
+          </div>
+          <div n="365" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">مو احوالم خرابه گر تو جویی</seg>
+              <seg n="b">جگر بندم کبابه گر تو جویی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ته که رفتی و یار نو گرفتی</seg>
+              <seg n="b">قیامت هم حسابه گر تو جویی</seg>
+            </l>
+          </div>
+          <div n="366" subtype="poem" type="textpart">
+            <l n="1">
+              <seg n="a">به جز این مو ندارم آرزویی</seg>
+              <seg n="b">که باشد همدم مو لاله‌رویی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">اگر درد دلم واجم به کوهان</seg>
+              <seg n="b">دگر در کوهساران گل نرویی</seg>
+            </l>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

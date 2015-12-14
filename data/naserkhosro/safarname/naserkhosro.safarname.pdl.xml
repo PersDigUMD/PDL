@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>safarname</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Persian Digtal Libary (Beta)</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Persian Digital Libary (PDL) texts were sourced(with permission) from the html files of the Ganjoor corpus(2015), and were cleaned, edited, and revised by the Roshan Institute Persian Digital Humanities team at the University of Maryland College Park<bibl><pubPlace>Ganjoor corpus</pubPlace><ptr target="http://ganjoor.net"/></bibl></p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+).([\w\d]+)" n="hemistich" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;]/tei:l[@n=&quot;$2&quot;]/tei:seg[@n=&quot;$3&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;]/tei:l[@n=&quot;$2&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+)" n="page" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;])"/>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:perslit:naserkhosro.safarname.pdl" type="edition" xml:lang="per">
+        <div n="100" subtype="page" type="textpart">
+          <l n="1">
+            <seg n="a">رنج و عنای جهان اگرچه درازست</seg>
+            <seg n="b">با بد و با نیک بی گمان به سرآید</seg>
+          </l>
+          <l n="2">
+            <seg n="a">چون مسافر زبهر ماست شب و روز</seg>
+            <seg n="b">هرچه یکی رفت بر اثر دگر آید</seg>
+          </l>
+          <l n="3">
+            <seg n="a">ما سفر برگذشتی گذرانیم</seg>
+            <seg n="b">تا سفرناگذشتنی به درآید</seg>
+          </l>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

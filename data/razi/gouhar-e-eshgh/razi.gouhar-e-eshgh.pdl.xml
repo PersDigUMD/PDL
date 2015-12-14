@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divan</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Persian Digtal Libary (Beta)</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Persian Digital Libary (PDL) texts were sourced(with permission) from the html files of the Ganjoor corpus(2015), and were cleaned, edited, and revised by the Roshan Institute Persian Digital Humanities team at the University of Maryland College Park<bibl><pubPlace>Ganjoor corpus</pubPlace><ptr target="http://ganjoor.net"/></bibl></p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+)" n="hemistich" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n=&quot;$1&quot;]/tei:seg[@n=&quot;$2&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n=&quot;$1&quot;])"/>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:perslit:razi.gouhar-e-eshgh.pdl" type="edition" xml:lang="per">
+        <l n="1">
+          <seg n="a">الهی سوختم بی‌غم الهی</seg>
+          <seg n="b">کرامت کن نم اشکی و آهی</seg>
+        </l>
+        <l n="2">
+          <seg n="a">چه اشک، اشکی که چون ریزد ز مژگان</seg>
+          <seg n="b">شود دامان ازو رشک گلستان</seg>
+        </l>
+        <l n="3">
+          <seg n="a">چه آه آهی که چون از دل زند سر</seg>
+          <seg n="b">بسوزاند دل یاقوت احمر،</seg>
+        </l>
+        <l n="4">
+          <seg n="a">دل بی‌عشق بر جان بس گران است</seg>
+          <seg n="b">سر بی‌شور مشتی استخوان است</seg>
+        </l>
+        <l n="5">
+          <seg n="a">تو را خلد و مرا باغ و چمن عشق</seg>
+          <seg n="b">تو را حور و مرا گور و کفن عشق</seg>
+        </l>
+        <l n="6">
+          <seg n="a">ز عشق از هر چه برتر میتوان شد</seg>
+          <seg n="b">خدا گر نه، پیمبر میتوان شد</seg>
+        </l>
+        <l n="7">
+          <seg n="a">اگر یزدان پاک از لات عشق است</seg>
+          <seg n="b">جهان را قاضی الحاجات عشق است</seg>
+        </l>
+        <l n="8">
+          <seg n="a">نداند عقل راه خانهٔ عشق</seg>
+          <seg n="b">که عقل کل بود دیوانهٔ عشق</seg>
+        </l>
+        <l n="9">
+          <seg n="a">خراب عشق آباد ی ندارد</seg>
+          <seg n="b">بد و نیک و غم و شادی ندارد</seg>
+        </l>
+        <l n="10">
+          <seg n="a">نداند دوست از دشمن گل از خار</seg>
+          <seg n="b">برش یکسان بود تسبیح و زنار</seg>
+        </l>
+        <l n="11">
+          <seg n="a">ز لذتهای عٰالم گر کنم یاد</seg>
+          <seg n="b">بجز خون جگر چشمم مبناد</seg>
+        </l>
+        <l n="12">
+          <seg n="a">مبادا مرهم داغم جز آتش</seg>
+          <seg n="b">رضی خواهی بعٰالم گر دلی خوش</seg>
+        </l>
+      </div>
+    </body>
+  </text>
+</TEI>

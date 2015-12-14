@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>mofrar</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Persian Digtal Libary (Beta)</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Persian Digital Libary (PDL) texts were sourced(with permission) from the html files of the Ganjoor corpus(2015), and were cleaned, edited, and revised by the Roshan Institute Persian Digital Humanities team at the University of Maryland College Park<bibl><pubPlace>Ganjoor corpus</pubPlace><ptr target="http://ganjoor.net"/></bibl></p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+).([\w\d]+)" n="hemistich" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;]/tei:l[@n=&quot;$2&quot;]/tei:seg[@n=&quot;$3&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;]/tei:l[@n=&quot;$2&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+)" n="page" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;])"/>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:perslit:razi.mofrar.pdl" type="edition" xml:lang="per">
+        <div n="1" subtype="page" type="textpart">
+          <l n="1">
+            <seg n="a">هجرت ز وصل غیر خبر میدهد مرا</seg>
+            <seg n="b">مرگی نوید مرگ دگر میدهد مرا</seg>
+          </l>
+        </div>
+        <div n="2" subtype="page" type="textpart">
+          <l n="1">
+            <seg n="a">از آن هجران کند با من مدارا</seg>
+            <seg n="b">که بی او زیستن کم مردنی نیست</seg>
+          </l>
+        </div>
+        <div n="3" subtype="page" type="textpart">
+          <l n="1">
+            <seg n="a">فیض عجبی یافتم از صبح ببینید</seg>
+            <seg n="b">این جادهٔ روشن ره میخانه نباشد</seg>
+          </l>
+        </div>
+        <div n="4" subtype="page" type="textpart">
+          <l n="1">
+            <seg n="a">زلفش بخط سپرد رضی عهد دلبری</seg>
+            <seg n="b">خوبی ازین دو سلسله بیرون نمیشود</seg>
+          </l>
+        </div>
+        <div n="5" subtype="page" type="textpart">
+          <l n="1">
+            <seg n="a">زلفش به بستر مرگ از تغافلت</seg>
+            <seg n="b">سنگین دلا بیک نگهم میتوان خرید</seg>
+          </l>
+        </div>
+        <div n="6" subtype="page" type="textpart">
+          <l n="1">
+            <seg n="a">دامن هر دو جهان از کف غم برهانم</seg>
+            <seg n="b">گر بچنگم فتد از چرخ گریبان و سری</seg>
+          </l>
+        </div>
+        <div n="7" subtype="page" type="textpart">
+          <l n="1">
+            <seg n="a">قید و اطلاق دلم سوخت ندانم چکنم</seg>
+            <seg n="b">هیچ جا بند نه و در همه جا بند شدم</seg>
+          </l>
+        </div>
+        <div n="8" subtype="page" type="textpart">
+          <l n="1">
+            <seg n="a">جز غم عشق بهر چیز که در ساخته‌ای</seg>
+            <seg n="b">حیف و صد حیف از آن عمر که در باخته‌ای</seg>
+          </l>
+        </div>
+        <div n="9" subtype="page" type="textpart">
+          <l n="1">
+            <seg n="a">ای کبوتر تو که سر پنجهٔ شاهینت نیست</seg>
+            <seg n="b">با خبر باش که آواز پری می‌آید</seg>
+          </l>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

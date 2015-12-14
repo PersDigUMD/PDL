@@ -1,0 +1,1322 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>masnavi</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Persian Digtal Libary (Beta)</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Persian Digital Libary (PDL) texts were sourced(with permission) from the html files of the Ganjoor corpus(2015), and were cleaned, edited, and revised by the Roshan Institute Persian Digital Humanities team at the University of Maryland College Park<bibl><pubPlace>Ganjoor corpus</pubPlace><ptr target="http://ganjoor.net"/></bibl></p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+).([\w\d]+).([\w\d]+)" n="hemistich" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;]/tei:div[@n=&quot;$2&quot;]/tei:l[@n=&quot;$3&quot;]/tei:seg[@n=&quot;$4&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+).([\w\d]+)" n="line" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;]/tei:div[@n=&quot;$2&quot;]/tei:l[@n=&quot;$3&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+).([\w\d]+)" n="page" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;]/tei:div[@n=&quot;$2&quot;])"/>
+        <cRefPattern matchPattern="([\w\d]+)" n="chapter" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=&quot;$1&quot;])"/>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:perslit:roodaki.masnavi.pdl" type="edition" xml:lang="per">
+        <div n="1kalila-sand" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">هرکه نامخت ازگذشت روزگار</seg>
+              <seg n="b">نیز ناموزد ز هیچ آموزگار</seg>
+            </l>
+          </div>
+          <div n="2" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">از خراسان به روز طاوس وش</seg>
+              <seg n="b">سوی خاور می‌خرامد شاد و خوش</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کآفتاب آید به بخشش زی بره</seg>
+              <seg n="b">روی گیتی سبز گردد یکسره</seg>
+            </l>
+            <l n="3">
+              <seg n="a">مهر دیدم بامدادان چون بتافت</seg>
+              <seg n="b">از خراسان سوی خاور می‌شتافت</seg>
+            </l>
+            <l n="4">
+              <seg n="a">نیم روزان بر سر ما برگذشت</seg>
+              <seg n="b">چو به خاور شد ز ما نادید گشت</seg>
+            </l>
+          </div>
+          <div n="3" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">هم چنان سرمه که دخت خوب روی</seg>
+              <seg n="b">هم به سان گرد بردارد ز روی</seg>
+            </l>
+            <l n="2">
+              <seg n="a">گرچه هر روز اندکی برداردش</seg>
+              <seg n="b">بافدم روزی به پایان آردش</seg>
+            </l>
+          </div>
+          <div n="4" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">شب زمستان بود، کپی سرد یافت</seg>
+              <seg n="b">کرمکی شبتاب ناگاهی بتافت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کپیان آتش همی پنداشتند</seg>
+              <seg n="b">پشتهٔ هیزم برو بر داشتند</seg>
+            </l>
+          </div>
+          <div n="5" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آن گرنج و آن شکر برداشت پاک</seg>
+              <seg n="b">وندر آن دستار آن زن بست خاک</seg>
+            </l>
+            <l n="2">
+              <seg n="a">باز کرد از خواب زن را نرم و خوش</seg>
+              <seg n="b">گفت: دزدانند و آمد پای پش</seg>
+            </l>
+            <l n="3">
+              <seg n="a">آن زن از دکان فرود آمد چو باد</seg>
+              <seg n="b">پس فلرزنگش به دست اندر نهاد</seg>
+            </l>
+            <l n="4">
+              <seg n="a">شوی بگشاد آن فلرزش، خاک دید</seg>
+              <seg n="b">کرد زن را بانگ و گفتش: ای پلید</seg>
+            </l>
+          </div>
+          <div n="6" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">دمنه را گفتا که تا: این بانگ چیست؟</seg>
+              <seg n="b">با نهیب و سهم این آوای کیست؟</seg>
+            </l>
+            <l n="2">
+              <seg n="a">دمنه گفت او را: جزین آوا دگر</seg>
+              <seg n="b">کار تو نه هست و سهمی بیشتر</seg>
+            </l>
+            <l n="3">
+              <seg n="a">آب هر چه بیشتر نیرو کند</seg>
+              <seg n="b">بند ورغ سست بوده بفگند</seg>
+            </l>
+            <l n="4">
+              <seg n="a">دل گسسته داری از بانگ بلند</seg>
+              <seg n="b">رنجکی باشدت و آواز گزند</seg>
+            </l>
+          </div>
+          <div n="7" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گفت: هنگامی یکی شهزاده بود</seg>
+              <seg n="b">گوهری و پر هنر آزاده بود</seg>
+            </l>
+            <l n="2">
+              <seg n="a">شد به گرما به درون یک روز غوشت</seg>
+              <seg n="b">بود فربی و کلان و خوب گوشت</seg>
+            </l>
+          </div>
+          <div n="8" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">کشتیی بر آب و کشتیبانش باد</seg>
+              <seg n="b">رفتن اندر وادیی یکسان نهاد</seg>
+            </l>
+            <l n="2">
+              <seg n="a">نه خله باید، نه باد انگیختن</seg>
+              <seg n="b">نه ز کشتی بیم و نه ز آویختن</seg>
+            </l>
+          </div>
+          <div n="9" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بانگ زله کرد خواهد کر گوش</seg>
+              <seg n="b">وایچ ناساید به گرما از خروش</seg>
+            </l>
+            <l n="2">
+              <seg n="a">برزند آواز دونانک به دست</seg>
+              <seg n="b">بانگ دونانک سه چند آوای هست</seg>
+            </l>
+          </div>
+          <div n="10" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">وز درخت اندر، گواهی خواهد اوی</seg>
+              <seg n="b">تو بدانگاه از درخت اندر بگوی:</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کان تبنگوی اندرو دینار بود</seg>
+              <seg n="b">آن ستد ز یدر که ناهشیار بود</seg>
+            </l>
+          </div>
+          <div n="11" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">هم چنان کبتی، که دارد انگبین</seg>
+              <seg n="b">چون بماند داستان من برین:</seg>
+            </l>
+            <l n="2">
+              <seg n="a">کبت ناگه بوی نیلوفر بیافت</seg>
+              <seg n="b">خوشش آمد سوی نیلوفر شتافت</seg>
+            </l>
+            <l n="3">
+              <seg n="a">وز بر خوشبوی نیلوفر نشست</seg>
+              <seg n="b">چون گه رفتن فراز آمد بجست</seg>
+            </l>
+            <l n="4">
+              <seg n="a">تا چو شد در آب نیلوفر نهان</seg>
+              <seg n="b">او به زیر آب ماند از ناگهان</seg>
+            </l>
+          </div>
+          <div n="12" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">هیچ شادی نیست اندر این جهان</seg>
+              <seg n="b">برتر از دیدار روی دوستان</seg>
+            </l>
+            <l n="2">
+              <seg n="a">هیچ تلخی نیست بر دل تلخ تر</seg>
+              <seg n="b">از فراق دوستان پر هنر</seg>
+            </l>
+          </div>
+          <div n="13" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">تا جهان بود از سر مردم فراز</seg>
+              <seg n="b">کس نبود از راز دانش بی‌نیاز</seg>
+            </l>
+            <l n="2">
+              <seg n="a">مردمان بخرد اندر هر زمان</seg>
+              <seg n="b">راز دانش را به هر گونه زبان</seg>
+            </l>
+            <l n="3">
+              <seg n="a">گرد کردند و گرامی داشتند</seg>
+              <seg n="b">تا به سنگ اندر همی بنگاشتند</seg>
+            </l>
+            <l n="4">
+              <seg n="a">دانش اندر دل چراغ روشنست</seg>
+              <seg n="b">وز همه بد بر تن تو جوشنست</seg>
+            </l>
+          </div>
+          <div n="14" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گفت با خرگوش خانه خان من</seg>
+              <seg n="b">خیز خاشاکت ازو بیرون فگن</seg>
+            </l>
+            <l n="2">
+              <seg n="a">چون یکی خاشاک افگنده به کوی</seg>
+              <seg n="b">گوش خاران را نیاز آید بدوی</seg>
+            </l>
+          </div>
+          <div n="15" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آن که را دانم که: اویم دشمنست</seg>
+              <seg n="b">وز روان پاک بدخواه منست</seg>
+            </l>
+            <l n="2">
+              <seg n="a">هم به هر گه دوستی جویمش من</seg>
+              <seg n="b">هم سخن به آهستگی گویمش من</seg>
+            </l>
+          </div>
+          <div n="16" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">کار چون بسته شود بگشایدا</seg>
+              <seg n="b">وز پس هر غم طرب افزایدا</seg>
+            </l>
+          </div>
+          <div n="17" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بار کژ مردم به کنگرش اندرا</seg>
+              <seg n="b">چون ازو سودست مر شادی ترا</seg>
+            </l>
+          </div>
+          <div n="18" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آفریده مردمان مر رنج را</seg>
+              <seg n="b">بیش کرده جان رنج آهنج را</seg>
+            </l>
+          </div>
+          <div n="19" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">اندر آمد مرد با زن چرب چرب</seg>
+              <seg n="b">گنده پیر از خانه بیرون شد بترب</seg>
+            </l>
+          </div>
+          <div n="20" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">شاه دیگر روز باغ آراست خوب</seg>
+              <seg n="b">تخت‌ها بنهاد و بر گسترد بوب</seg>
+            </l>
+          </div>
+          <div n="21" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">خود ترا جوید همه خوبی و زیب</seg>
+              <seg n="b">هم چنان چون تو جبه جوید نشیب</seg>
+            </l>
+          </div>
+          <div n="22" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">پس تبیری دید نزدیک درخت</seg>
+              <seg n="b">هر گهی بانگی بجستی تند و سخت</seg>
+            </l>
+          </div>
+          <div n="23" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">باکروز و خرمی آهو به دشت</seg>
+              <seg n="b">می خرامد چون کسی کومست گشت</seg>
+            </l>
+          </div>
+          <div n="24" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">خایگان تو چو کابیله شدست</seg>
+              <seg n="b">رنگ او چون رنگ پاتیله شدست</seg>
+            </l>
+          </div>
+          <div n="25" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چون درآمد آن کدیور، مرد زفت</seg>
+              <seg n="b">بیل هشت و داس گاله برگرفت</seg>
+            </l>
+          </div>
+          <div n="26" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آمد این شبدیز با مرد خراج</seg>
+              <seg n="b">دربجنبانید با بانگ و تلاج</seg>
+            </l>
+          </div>
+          <div n="27" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">دست و کف و پای پیران پر کلخج</seg>
+              <seg n="b">ریش پیران زرد از بس دود نخج</seg>
+            </l>
+          </div>
+          <div n="28" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گر خوری از خوردن افزایدت رنج</seg>
+              <seg n="b">ور دمی مینو فراز آوردت و گنج</seg>
+            </l>
+          </div>
+          <div n="29" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گفت: خیز اکنون و سازه ره بسیچ</seg>
+              <seg n="b">رفت باید، ای پسر، ممغز تو هیچ</seg>
+            </l>
+          </div>
+          <div n="30" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آهو از دام اندرون آواز داد</seg>
+              <seg n="b">پاسخ گرزه به دانش باز داد</seg>
+            </l>
+          </div>
+          <div n="31" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">پادشا سیمرغ دریا را ببرد</seg>
+              <seg n="b">خانه و بچه بدان تیتو سپرد</seg>
+            </l>
+          </div>
+          <div n="32" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">اندر آن شهری که موش آهن خورد</seg>
+              <seg n="b">باز پرد در هوا، کودک برد</seg>
+            </l>
+          </div>
+          <div n="33" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">از فراوانی، که خشکا مار کرد</seg>
+              <seg n="b">زن نهان مر مرد را بیدار کرد</seg>
+            </l>
+          </div>
+          <div n="34" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آنگهی گنجور مشک آمار کرد</seg>
+              <seg n="b">تا مرو را زان بدان بیدار کرد</seg>
+            </l>
+          </div>
+          <div n="35" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چونکه مالیده بدو گستاخ شد</seg>
+              <seg n="b">کار مالیده بدو در واخ شد</seg>
+            </l>
+          </div>
+          <div n="36" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چون که نالنده بدو گستاخ شد</seg>
+              <seg n="b">تن درستی آمد و در واخ شد</seg>
+            </l>
+          </div>
+          <div n="37" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">کرد روبه یوزواری یک ز غند</seg>
+              <seg n="b">خویشتن را زان میان بیرون فگند</seg>
+            </l>
+          </div>
+          <div n="38" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">مرد دینی رفت و آوردش کنند</seg>
+              <seg n="b">چون همی مهمان در من خواست کند</seg>
+            </l>
+          </div>
+          <div n="39" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گنبدی نهمار بر برده، بلند</seg>
+              <seg n="b">نه ستونش از برون، نه زیر بند</seg>
+            </l>
+          </div>
+          <div n="40" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">روز جستن تازیانی چون نوند</seg>
+              <seg n="b">روز دن چون شست ساله سودمند</seg>
+            </l>
+          </div>
+          <div n="41" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">روز جستن تازیانی چون نوند</seg>
+              <seg n="b">بیش باشد تا تو باشی سودمند</seg>
+            </l>
+          </div>
+          <div n="42" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گر بزان شهر با من تاختند</seg>
+              <seg n="b">من ندانستم چه تنبل ساختند؟</seg>
+            </l>
+          </div>
+          <div n="43" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">نان آن مدخل ز بس زشتم نمود</seg>
+              <seg n="b">از پی خوردن گوارشتم نبود</seg>
+            </l>
+          </div>
+          <div n="44" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گفت دینی را که: این دینار بود</seg>
+              <seg n="b">کین فراکن موش را پروار بود</seg>
+            </l>
+          </div>
+          <div n="45" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">زن چو این بشنیده شد خاموش بود</seg>
+              <seg n="b">کفشگر کانا و مردی لوش بود</seg>
+            </l>
+          </div>
+          <div n="46" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">سرخی خفچه نگر از سرخ بید</seg>
+              <seg n="b">معصفر گون، پوشش او خود سفید</seg>
+            </l>
+          </div>
+          <div n="47" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چون کشف انبوه غوغایی بدید</seg>
+              <seg n="b">بانگ وژخ مردمان، خشم آورید</seg>
+            </l>
+          </div>
+          <div n="48" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">سر فرو بردم میان آبخور</seg>
+              <seg n="b">از فرنج منش خشم آمد مگر</seg>
+            </l>
+          </div>
+          <div n="49" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">خور به شادی روزگار نوبهار</seg>
+              <seg n="b">می گسار اندر تکوک شاهوار</seg>
+            </l>
+          </div>
+          <div n="50" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">داشتی آن تاجر دولت شعار</seg>
+              <seg n="b">صد قطار سار اندر زیر بار</seg>
+            </l>
+          </div>
+          <div n="51" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">مرد مزدور اندر آغازید کار</seg>
+              <seg n="b">پیش او دوستان همی زد بی کیار</seg>
+            </l>
+          </div>
+          <div n="52" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آشکوخد بر زمین هموارتر</seg>
+              <seg n="b">هم چنان چون بر زمین دشوارتر</seg>
+            </l>
+          </div>
+          <div n="53" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">از تو دارم هر چه در خانه خنور</seg>
+              <seg n="b">وز تو دارم نیز گندم در کنور</seg>
+            </l>
+          </div>
+          <div n="54" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گرسنه روباه شد تا آن تبیر</seg>
+              <seg n="b">چشم زی او برده، مانده خیر خیر</seg>
+            </l>
+          </div>
+          <div n="55" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آتشی بنشاند از تن تفت و تیز</seg>
+              <seg n="b">چون زمانی بگذرد، گردد گمیز</seg>
+            </l>
+          </div>
+          <div n="56" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">وز چکاوک نوف بینی رستخیز</seg>
+              <seg n="b">دشت برگیرد بدان آوای تیز</seg>
+            </l>
+          </div>
+          <div n="57" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چون گل سرخ از میان پیلگوش</seg>
+              <seg n="b">یا چو زرین گوشوار از خوب گوش</seg>
+            </l>
+          </div>
+          <div n="58" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">شیر خشم آورد و جست از جای خویش</seg>
+              <seg n="b">و آمد آن خرگوش را الفغده پیش</seg>
+            </l>
+          </div>
+          <div n="59" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ابله و فرزانه را فرجام خاک</seg>
+              <seg n="b">جایگاه هر دو اندر یک مغاک</seg>
+            </l>
+          </div>
+          <div n="60" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">موی سر جغبوت و جامه ریمناک</seg>
+              <seg n="b">از برون سو باد سرد و بیمناک</seg>
+            </l>
+          </div>
+          <div n="61" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">زد کلوخی بر هباک آن فزاک</seg>
+              <seg n="b">شد هباک او به کردار مغاک</seg>
+            </l>
+          </div>
+          <div n="62" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">از دهان تو همی آید غشاک</seg>
+              <seg n="b">پیر گشتی ریخت مویت از هباک</seg>
+            </l>
+          </div>
+          <div n="63" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">خشم آمدش و همان گه گفت: ویک</seg>
+              <seg n="b">خواست کورا برکند از دیده کیک</seg>
+            </l>
+          </div>
+          <div n="64" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ماده گفتا: هیچ شرمت نیست، ویک</seg>
+              <seg n="b">بس سبکباری، نه بد دانی، نه نیک</seg>
+            </l>
+          </div>
+          <div n="65" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">دم سگ بینی ابا بتفوز سگ</seg>
+              <seg n="b">خشک گشت، کش نجنبد هیچ رگ</seg>
+            </l>
+          </div>
+          <div n="66" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چون فراز آید بدو آغاز مرگ</seg>
+              <seg n="b">دیدنش بیگار گرداند مجرگ</seg>
+            </l>
+          </div>
+          <div n="67" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ایستاده دیدم آن جا دزد و غول</seg>
+              <seg n="b">روی زشت و چشم‌ها همچون دو غول</seg>
+            </l>
+          </div>
+          <div n="68" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چون که زن را دید فغ، کرد اشتلم</seg>
+              <seg n="b">همچو آهن گشت و نداد ایچ خم</seg>
+            </l>
+          </div>
+          <div n="69" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">تا به خانه برد زن را با دلام</seg>
+              <seg n="b">شادمانه زن نشست و شادکام</seg>
+            </l>
+          </div>
+          <div n="70" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">نزد آن شاه زمین کردش پیام</seg>
+              <seg n="b">دارویی فرمود زامهران به نام</seg>
+            </l>
+          </div>
+          <div n="71" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بس که برگفته پشیمان بوده‌ام</seg>
+              <seg n="b">بس که بر ناگفته شادان بوده‌ام</seg>
+            </l>
+          </div>
+          <div n="72" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">کرد باید مر مرا و او را رون</seg>
+              <seg n="b">شیر تا تیمار دارد خویشتن</seg>
+            </l>
+          </div>
+          <div n="73" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">پس شتابان آمد اینک پیرزن</seg>
+              <seg n="b">روی یکسو، کاغه کرده خویشتن</seg>
+            </l>
+          </div>
+          <div n="74" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">زش ازو پاسخ دهم اندر نهان</seg>
+              <seg n="b">زش به بیداری میان مردمان</seg>
+            </l>
+          </div>
+          <div n="75" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چون بگردد پای او از پایدان</seg>
+              <seg n="b">خود شکوخیده بماند هم چنان</seg>
+            </l>
+          </div>
+          <div n="76" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">مار و غنده کربشه با کژدمان</seg>
+              <seg n="b">خورد ایشان گوشت روی مردمان</seg>
+            </l>
+          </div>
+          <div n="77" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">تاک رز بینی شده دینارگون</seg>
+              <seg n="b">پرنیان سبز او زنگارگون</seg>
+            </l>
+          </div>
+          <div n="78" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">از همالان وز برادر من فزون</seg>
+              <seg n="b">زان که من امیدوارم نیز یون</seg>
+            </l>
+          </div>
+          <div n="79" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گر درم داری، گزند آرد بدین</seg>
+              <seg n="b">بفگن او را گرم و درویشی گزین</seg>
+            </l>
+          </div>
+          <div n="80" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">مرد را نهمار خشم آمد ازین</seg>
+              <seg n="b">غاو شنگی به کف آوردش، گزین</seg>
+            </l>
+          </div>
+          <div n="81" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ار همه خوبی و نیکی دارد او</seg>
+              <seg n="b">ماده ور بر کار خویش ار دارد او</seg>
+            </l>
+          </div>
+          <div n="82" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">تنگ شد عالم برو از بهر گاو</seg>
+              <seg n="b">شور شور اندر فگند و کاو کاو</seg>
+            </l>
+          </div>
+          <div n="83" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گفت: فردا بینی‌ام در پیش تو</seg>
+              <seg n="b">خود بیا هنجم ستیم از ریش تو</seg>
+            </l>
+          </div>
+          <div n="84" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">کاش آن گوید که باشد بیش نه</seg>
+              <seg n="b">بر یکی بر چند بفزاید فره</seg>
+            </l>
+          </div>
+          <div n="85" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">هیچ گنجی نیست از فرهنگ به</seg>
+              <seg n="b">تا توانی رو هوا زی گنج نه</seg>
+            </l>
+          </div>
+          <div n="86" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">روی هر یک چون دو هفته گرد ماه</seg>
+              <seg n="b">جامه‌شان غفه، سموریشان کلاه</seg>
+            </l>
+          </div>
+          <div n="87" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">اخترانند آسمانشان جایگاه</seg>
+              <seg n="b">هفت تابنده دوان در دو و داه</seg>
+            </l>
+          </div>
+          <div n="88" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">سوس پرورده به می بگداخته</seg>
+              <seg n="b">نیک درمانی زنان را ساخته</seg>
+            </l>
+          </div>
+          <div n="89" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">پر بکنده، چنگ و چنگل ریخته</seg>
+              <seg n="b">خاک گشته، باد خاکش بیخته</seg>
+            </l>
+          </div>
+          <div n="90" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">نزد تو آماده بدو آراسته</seg>
+              <seg n="b">جنگ او را خویشتن پیراسته</seg>
+            </l>
+          </div>
+          <div n="91" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">سنجد چیلان بدو نیمه شده</seg>
+              <seg n="b">نقطهٔ سرمه به یک یک برزده</seg>
+            </l>
+          </div>
+          <div n="92" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">هست از مغز سرت، ای منگله</seg>
+              <seg n="b">همچو رش مانده تهی از کشکله</seg>
+            </l>
+          </div>
+          <div n="93" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بهترین یاران و نزدیکان همه</seg>
+              <seg n="b">نزد او دارم همیشه اندمه</seg>
+            </l>
+          </div>
+          <div n="94" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">پس بیو بارید ایشان را همه</seg>
+              <seg n="b">نی شبان را میش زنده، نی رمه</seg>
+            </l>
+          </div>
+          <div n="95" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">جای کرد از بهر بودن کازه‌ای</seg>
+              <seg n="b">زان که کرده بودشان اندازه‌ای</seg>
+            </l>
+          </div>
+          <div n="96" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گفت: ای من، مرد خام کل درای</seg>
+              <seg n="b">پیش آن فرتوت پیر ژاژخای</seg>
+            </l>
+          </div>
+          <div n="97" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بینی و گنده دهان داری و نای</seg>
+              <seg n="b">خایگان غر، هر یکی همچون درای</seg>
+            </l>
+          </div>
+          <div n="98" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">پیسی و ناسور کون و گربه پای</seg>
+              <seg n="b">خایه غر داری تو، چون اشتر درای</seg>
+            </l>
+          </div>
+          <div n="99" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آبکندی دور و بس تاریک جای</seg>
+              <seg n="b">لغز لغزان چون درو بنهند پای</seg>
+            </l>
+          </div>
+          <div n="100" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">زشت و نافرهخته و نابخردی</seg>
+              <seg n="b">آدمی رویی و در باطن بدی</seg>
+            </l>
+          </div>
+          <div n="101" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">من سخن گویم، تو کانایی کنی</seg>
+              <seg n="b">هر زمانی دست بر دستی زنی</seg>
+            </l>
+          </div>
+          <div n="102" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">دستگاه او نداند کز چه روی؟</seg>
+              <seg n="b">تنبل و کنبوره در دستان اوی</seg>
+            </l>
+          </div>
+          <div n="103" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">شو، بدان گنج اندرون خمی بجوی</seg>
+              <seg n="b">زیر او سمچیست، بیرون شد بدوی</seg>
+            </l>
+          </div>
+          <div n="104" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چون یکی جبغبوت پستان‌بند اوی</seg>
+              <seg n="b">شیر دوشی زو به روزی دو سبوی</seg>
+            </l>
+          </div>
+          <div n="105" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">خم و خنبه پر ز انده، دل تهی</seg>
+              <seg n="b">زعفران و نرگس و بید و بهی</seg>
+            </l>
+          </div>
+        </div>
+        <div n="2motaghareb" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">باندا نمودند و خشور را</seg>
+              <seg n="b">بدید آن سراپا همه نور را</seg>
+            </l>
+          </div>
+          <div n="2" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">کفن حله شد کرم بهرامه را</seg>
+              <seg n="b">کز ابریشم جان کند جامه را</seg>
+            </l>
+          </div>
+          <div n="3" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">به کوه اندرون گفت: کمکان ما</seg>
+              <seg n="b">بیا و بکن، بگسلد جان ما</seg>
+            </l>
+          </div>
+          <div n="4" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">توانی برو کار بستن فریب</seg>
+              <seg n="b">که نادان همه راست ببند و ریب</seg>
+            </l>
+          </div>
+          <div n="5" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گرفت آب کاشه ز سرمای سخت</seg>
+              <seg n="b">چو زرین ورق گشت برگ درخت</seg>
+            </l>
+          </div>
+          <div n="6" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ز قلب آنچنان سوی دشمن بتاخت</seg>
+              <seg n="b">که از هیبتش شیر نر آب تاخت</seg>
+            </l>
+          </div>
+          <div n="7" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چو گشت آن پریروی بیمار غنج</seg>
+              <seg n="b">ببرید دل زین سرای سپنج</seg>
+            </l>
+          </div>
+          <div n="8" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">سگالندهٔ چرخ مانند غوچ</seg>
+              <seg n="b">تبر برده بر سر چو تاج خروچ</seg>
+            </l>
+          </div>
+          <div n="9" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">که بر آب و گل نقش ما یاد کرد</seg>
+              <seg n="b">که ماهار در بینی باد کرد</seg>
+            </l>
+          </div>
+          <div n="10" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">به دشمن بر، از خشم آواز کرد</seg>
+              <seg n="b">تو گفتی مگر تندر آغاز کرد</seg>
+            </l>
+          </div>
+          <div n="11" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">نفس را به عذرم چو انگیز کرد</seg>
+              <seg n="b">چو آذر فزا آتشم تیز کرد</seg>
+            </l>
+          </div>
+          <div n="12" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">زهر خاشه‌ای خویشتن پرورد</seg>
+              <seg n="b">که جز خاش وی را چه اندر خورد؟</seg>
+            </l>
+          </div>
+          <div n="13" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">نشست وسخن را همی خاش زد</seg>
+              <seg n="b">ز آب دهن کوه را شاش زد</seg>
+            </l>
+          </div>
+          <div n="14" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ببادافره جاودان کردمند</seg>
+              <seg n="b">به دوزخ بماند روانش نژند</seg>
+            </l>
+          </div>
+          <div n="15" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">یکی بزم خرم بیاراستند</seg>
+              <seg n="b">می و رود و رامشگران خواستند</seg>
+            </l>
+          </div>
+          <div n="16" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">تن خنگ بید، ارچه باشد سپید</seg>
+              <seg n="b">به تری و نرمی نباشد چو بید</seg>
+            </l>
+          </div>
+          <div n="17" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">کفیدش دل از غم، چون آن کفته نار</seg>
+              <seg n="b">کفیده شود سنگ تیمار خوار</seg>
+            </l>
+          </div>
+          <div n="18" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">درخش، ارنخندد به وقت بهار</seg>
+              <seg n="b">همانا نگرید چنین ابر زار</seg>
+            </l>
+          </div>
+          <div n="19" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">به دامم نیامد بسان تو گور</seg>
+              <seg n="b">رهایی نیابی، بدین سان مشور</seg>
+            </l>
+          </div>
+          <div n="20" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">رسیدند زی شهر چندان فراز</seg>
+              <seg n="b">سپه خیمه زد در نشیب و فراز</seg>
+            </l>
+          </div>
+          <div n="21" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چه خوش گفت مزدور با آن خدیش:</seg>
+              <seg n="b">مکن بد به کس، گر نخواهی به خویش</seg>
+            </l>
+          </div>
+          <div n="22" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">تن از خوی پر آب و دهان پر ز خاک</seg>
+              <seg n="b">زبان گشته از تشنگی چاک چاک</seg>
+            </l>
+          </div>
+          <div n="23" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">فگندند بر لاد پر نیخ سنگ</seg>
+              <seg n="b">نکردند در کار موبد درنگ</seg>
+            </l>
+          </div>
+          <div n="24" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">به یک باد اگر بیشتر تار رنگ</seg>
+              <seg n="b">که باشد که بیشی بود بی درنگ</seg>
+            </l>
+          </div>
+          <div n="25" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">دو جوی روان از دهانش زخلم</seg>
+              <seg n="b">دو خرمن زده بر دو چشمش زخیم</seg>
+            </l>
+          </div>
+          <div n="26" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بهارست همواره هر روزیم</seg>
+              <seg n="b">به منکر فراوان، به معروف کم</seg>
+            </l>
+          </div>
+          <div n="27" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">مکن خویشتن از ره راست گم</seg>
+              <seg n="b">که خود را به دوزخ بری بافدم</seg>
+            </l>
+          </div>
+          <div n="28" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">به دشت ار به شمشیر بگزاردم</seg>
+              <seg n="b">ازان به که ماهی بیو باردم</seg>
+            </l>
+          </div>
+          <div n="29" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">اگر باشگونه بود پیرهن</seg>
+              <seg n="b">بود حاجت برکشیدن زتن</seg>
+            </l>
+          </div>
+          <div n="30" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">جگر تشنگانند بی‌توشگان</seg>
+              <seg n="b">که بیچارگانند و بی‌زاوران</seg>
+            </l>
+          </div>
+          <div n="31" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">وگر پهلوانی ندانی زبان</seg>
+              <seg n="b">ورز رود را ماورالنهر دان</seg>
+            </l>
+          </div>
+          <div n="32" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">که هرگه که تیره بگرددجهان</seg>
+              <seg n="b">بسوزد چو دوزخ شود با دران</seg>
+            </l>
+          </div>
+          <div n="33" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بداندیش دشمن برو ویل جو</seg>
+              <seg n="b">که تا چون ستاند ازو چیز او</seg>
+            </l>
+          </div>
+          <div n="34" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">سرشک از مژه همچو در ریخته</seg>
+              <seg n="b">چو خوشه ز سارونه آویخته</seg>
+            </l>
+          </div>
+          <div n="35" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">نشسته به صد چشم بر باره‌ای</seg>
+              <seg n="b">گرفته به چنگ اندرون باره‌ای</seg>
+            </l>
+          </div>
+          <div n="36" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">لب بخت پیروز را خنده ای</seg>
+              <seg n="b">مرا نیز مروای فرخنده ای</seg>
+            </l>
+          </div>
+          <div n="37" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">میلفنج دشمن، که دشمن یکی</seg>
+              <seg n="b">فزونست و دوست ار هزار اندکی</seg>
+            </l>
+          </div>
+          <div n="38" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ایا خلعت فاخر از خرمی</seg>
+              <seg n="b">همی رفتی و می نوشتی ز می</seg>
+            </l>
+          </div>
+          <div n="39" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">جوان بودم و پنبه فخمیدمی</seg>
+              <seg n="b">چو فخمیده شد دانه برچیدمی</seg>
+            </l>
+          </div>
+          <div n="40" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">جوان چون بدید آن نگاریده روی</seg>
+              <seg n="b">به سان دو زنجیر مرغول موی</seg>
+            </l>
+          </div>
+          <div n="41" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">به خنیاگری نغز آورد روی</seg>
+              <seg n="b">که: چیزی که دل خوش کند، آن بگوی</seg>
+            </l>
+          </div>
+          <div n="42" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">به چشم دلت دید باید جهان</seg>
+              <seg n="b">که چشم سر تو نبیند نهان</seg>
+            </l>
+          </div>
+          <div n="43" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بدین آشکارت ببین آشکار</seg>
+              <seg n="b">نهانیت را بر نهانی گمار</seg>
+            </l>
+          </div>
+        </div>
+        <div n="3khafeef" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">تا سمو سر برآورید از دشت</seg>
+              <seg n="b">گشت زنگار گون همه لب کشت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">هر یکی کاردی ز خوان برداشت</seg>
+              <seg n="b">تا پزند از سمو طعامک چاشت</seg>
+            </l>
+          </div>
+          <div n="2" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">نیست فکری به غیر یار مرا</seg>
+              <seg n="b">عشق شد در جهان فیار مرا</seg>
+            </l>
+          </div>
+          <div n="3" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">زرع و ذرع از بهار شد چو بهشت</seg>
+              <seg n="b">زرع کشتست و ذرع گوشهٔ کشت</seg>
+            </l>
+          </div>
+          <div n="4" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">اشتر گرسنه کسیمه برد</seg>
+              <seg n="b">کی شکوهد ز خار؟ چیره خورد</seg>
+            </l>
+          </div>
+          <div n="5" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">هر کرا راهبر زغن باشد</seg>
+              <seg n="b">گذر او به مرغزن باشد</seg>
+            </l>
+          </div>
+          <div n="6" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">دیوه هر چند کابرشم بکند</seg>
+              <seg n="b">هرچه آن بیشتر به خویش تند</seg>
+            </l>
+          </div>
+          <div n="7" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گاو مسکین ز کید دمنه چه دید؟</seg>
+              <seg n="b">وز بد زاغ بوم را چه رسید؟</seg>
+            </l>
+          </div>
+          <div n="8" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">دور ماند از سرای خویش و تبار</seg>
+              <seg n="b">نسری ساخت بر سر کهسار</seg>
+            </l>
+          </div>
+          <div n="9" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">گرچه نامردمست آن ناکس</seg>
+              <seg n="b">نشود سیر ازو دلم یرگس</seg>
+            </l>
+          </div>
+          <div n="10" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">دخت کسری ز نسل کیکاوس</seg>
+              <seg n="b">درستی نام، نغز چون طاوس</seg>
+            </l>
+          </div>
+          <div n="11" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">تبر از بس که زد به دشمن کوس</seg>
+              <seg n="b">سرخ شد همچو لالکای خروس</seg>
+            </l>
+          </div>
+          <div n="12" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آن که از این سخن شنید ارزش</seg>
+              <seg n="b">باز پیش آر، تا کند پژهش</seg>
+            </l>
+          </div>
+          <div n="13" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">خویشتن پاک دار و بی‌پرخاش</seg>
+              <seg n="b">هیچ کس را مباش عاشق غاش</seg>
+            </l>
+          </div>
+          <div n="14" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">خویشتن پاک دار بی‌پرخاش</seg>
+              <seg n="b">رو به آغاش اندرون مخراش</seg>
+            </l>
+          </div>
+          <div n="15" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">خویش بیگانه گردد از پی دیش</seg>
+              <seg n="b">خواهی آن روز مزد کمتر دیش</seg>
+            </l>
+          </div>
+          <div n="16" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">از بزرگی که هستی، ای خشنوک</seg>
+              <seg n="b">چاکرت بر کتف نهد دفنوک</seg>
+            </l>
+          </div>
+          <div n="17" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">از تو خالی نگارخانهٔ جم</seg>
+              <seg n="b">فرش دیبا فگنده بر بجکم</seg>
+            </l>
+          </div>
+          <div n="18" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">من چنین زار ازان جماش شدم</seg>
+              <seg n="b">همچو آتش میان داش شدم</seg>
+            </l>
+          </div>
+          <div n="19" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">من چنان زار ازان جماش درم</seg>
+              <seg n="b">همچو آتش میان داش درم</seg>
+            </l>
+          </div>
+          <div n="20" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">جان ترنجیده و شکسته دلم</seg>
+              <seg n="b">گویی از غم همی فرو گسلم</seg>
+            </l>
+          </div>
+          <div n="21" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">باد بر تو مبارک و خنشان</seg>
+              <seg n="b">جشن نوروز و گوسپند کشان</seg>
+            </l>
+          </div>
+          <div n="22" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بودنی بود، می بیار اکنون</seg>
+              <seg n="b">رطل پرکن ، مگوی بیش سخون</seg>
+            </l>
+          </div>
+          <div n="23" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چون نهاد او پهند را نیکو</seg>
+              <seg n="b">قید شد در پهند او آهو</seg>
+            </l>
+          </div>
+          <div n="24" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چون به بانگ آمد از هوا بخنو</seg>
+              <seg n="b">می خور و بانگ رود و چنگ شنو</seg>
+            </l>
+          </div>
+          <div n="25" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">از شبستان ببشکم آمد شاه</seg>
+              <seg n="b">گشت بشکم ز دلبران چون ماه</seg>
+            </l>
+          </div>
+          <div n="26" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ریش و سبلت همی خضاب کنی</seg>
+              <seg n="b">خویشتن را همی عذاب کنی</seg>
+            </l>
+          </div>
+          <div n="27" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">آن که نشک آفرید و سرو سهی</seg>
+              <seg n="b">وان که بید آفرید و نار و بهی</seg>
+            </l>
+          </div>
+        </div>
+        <div n="4hzj" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">شبی دیرند و ظلمت را مهیا</seg>
+              <seg n="b">چو نابینا درو دو چشم بینا</seg>
+            </l>
+          </div>
+          <div n="2" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">درنگ آر ای سپهر چرخ وارا</seg>
+              <seg n="b">کیاخن ترت باید کرد کارا</seg>
+            </l>
+          </div>
+          <div n="3" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چراغان در شب چک آن چنان شد</seg>
+              <seg n="b">که گیتی رشک هفتم آسمان شد</seg>
+            </l>
+          </div>
+          <div n="4" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">چو یاوندان به مجلس می گرفتند</seg>
+              <seg n="b">ز مجلس مست چون گشتند رفتند</seg>
+            </l>
+          </div>
+          <div n="5" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">نیارم بر کسی این راز بگشود</seg>
+              <seg n="b">مرا از خال هندوی تو بفنود</seg>
+            </l>
+          </div>
+          <div n="6" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">اگرچه در وفا بی شبهی و دیس</seg>
+              <seg n="b">نمی‌دانی تو قدر من ازندیس</seg>
+            </l>
+          </div>
+          <div n="7" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بود زودا، که آیی نیک خاموش</seg>
+              <seg n="b">چو مرغابی زنی در آب پاغوش</seg>
+            </l>
+          </div>
+          <div n="8" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">الهی، از خودم بستان و گم کن</seg>
+              <seg n="b">به نور پاک بر من اشتلم کن</seg>
+            </l>
+          </div>
+          <div n="9" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">سر سرو قدش شد باژگونه</seg>
+              <seg n="b">دو تا شد پشت او همچون درونه</seg>
+            </l>
+          </div>
+          <div n="10" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">تو ازفرغول باید دور باشی</seg>
+              <seg n="b">شوی دنبال کار و جان خراشی</seg>
+            </l>
+          </div>
+          <div n="11" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">به راه اندر همی شد شاهراهی</seg>
+              <seg n="b">رسید او تا به نزد پادشاهی</seg>
+            </l>
+          </div>
+          <div n="12" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بهشت آیین سرایی را بپرداخت</seg>
+              <seg n="b">زهر گونه درو تمثال‌ها ساخت</seg>
+            </l>
+            <l n="2">
+              <seg n="a">ز عود و چندن او را آستانه</seg>
+              <seg n="b">درش سیمین و زرین پالکانه</seg>
+            </l>
+          </div>
+        </div>
+        <div n="5digar" subtype="chapter" type="textpart">
+          <div n="1" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">ای بلبل خوش آوا، آوا ده</seg>
+              <seg n="b">ای ساقی ، آن قدح باما ده</seg>
+            </l>
+          </div>
+          <div n="2" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">جوانی گسست و چیره زبانی</seg>
+              <seg n="b">طبعم گرفت نیز گرانی</seg>
+            </l>
+          </div>
+          <div n="3" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">با صد هزار مردم تنهایی</seg>
+              <seg n="b">بی صد هزار مردم تنهایی</seg>
+            </l>
+          </div>
+          <div n="4" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">جامه پر صورت دهر، ای جوان</seg>
+              <seg n="b">چرک شدوشد به کف گازران</seg>
+            </l>
+            <l n="2">
+              <seg n="a">رنگ همه خام وچنان پیچ و تاب</seg>
+              <seg n="b">منتظرم تا چه برآید ز آب؟</seg>
+            </l>
+          </div>
+          <div n="5" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">لقمه‌ای از زهر زده در دهن</seg>
+              <seg n="b">مرگ فشردش همه در زیر غن</seg>
+            </l>
+          </div>
+          <div n="6" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">بگرفت به چنگ چنگ و بنشست</seg>
+              <seg n="b">بنواخت به شست چنگ را شست</seg>
+            </l>
+          </div>
+          <div n="7" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">فرخار بزرگ و نیک جاییست</seg>
+              <seg n="b">کان موضع آن بت نواییست</seg>
+            </l>
+          </div>
+          <div n="8" subtype="page" type="textpart">
+            <l n="1">
+              <seg n="a">نه کفشگری که دوختستی</seg>
+              <seg n="b">نه گندم و جو فرو خستی</seg>
+            </l>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
