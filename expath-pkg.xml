@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://expath.org/ns/pkg" name="https://github.com/PersDigUMD/Corpus" abbrev="PersDigUMD-Corpus" version="0.1" spec="1.0">
+    <title>Persian Digital Library at the University of Maryland, College Park Corpus</title>
+    <dependency package="http://exist-db.org/apps/shared"/>
+</package>
