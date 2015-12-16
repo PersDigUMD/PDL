@@ -1,0 +1,13 @@
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Persian Digital Library at the University of Maryland, College Park Corpus</description>
+    <author/>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>library</type>
+    <target>persdigumd-corpus</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <deployed>2015-12-16T10:14:44.791+01:00</deployed>
+</meta>
