@@ -160,6 +160,10 @@ p img {
   border: none;
 }
 
+#persdiglogo {
+  align-content: center;
+}
+
 /* Code blocks */
 
 code, pre {
